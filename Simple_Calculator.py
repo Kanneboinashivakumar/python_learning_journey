@@ -1,0 +1,8 @@
+num1 = int(input("enter the first number :" ))
+num2 = int(input("enter the second number:"))
+print("Sum =",num1+num2)
+print("Dif =",num1-num2)
+print("Mul =",num1*num2)
+print("Div =",num1/num2)
+print("pow =",num1**num2)
+print("rem =",num1%num2)
