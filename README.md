@@ -5,9 +5,9 @@ Instead of only learning theory, I am building hands-on projects to strengthen m
 
 ---
 
-## 📅 Day 1 – Python Basics
+## Day 1 – Python Basics
 
-### 📚 Topics Covered
+### Topics Covered
 
 - **Variables & Identifiers** → Storing and naming data in memory  
 - **Data Types** → `int`, `float`, `string`, `boolean`  
@@ -17,7 +17,7 @@ Instead of only learning theory, I am building hands-on projects to strengthen m
 
 ---
 
-### 🚀 Projects
+### Projects
 
 #### 1. Personal Info Generator
 **Description:**  
