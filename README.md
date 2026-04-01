@@ -118,7 +118,183 @@ Variables, Strings, Input / Output
 
 ---
 
-## Day 2 – Coming Soon
+## Day 2 – Strings & Conditional Statements
+
+### Topics Covered
+
+- **Strings** → Creating, indexing, and manipulating text data  
+- **String Slicing** → Extracting parts of a string using indices  
+- **Conditional Statements** → `if`, `elif`, `else` for decision making  
+- **Nested Conditions** → Using conditions inside other conditions  
+
+---
+
+### Projects
+
+#### 1. Even or Odd Checker  
+**Description:**  
+Takes a number as input and determines whether it is even or odd.
+
+**Concepts Used:**  
+Conditional Statements, Operators  
+
+---
+
+#### 2. Positive / Negative / Zero Checker  
+**Description:**  
+Classifies a number as positive, negative, or zero.
+
+**Concepts Used:**  
+Conditional Statements, Comparison Operators  
+
+---
+
+#### 3. Password Validator  
+**Description:**  
+Checks whether the entered password matches a predefined password.
+
+**Concepts Used:**  
+Strings, Conditional Statements  
+
+---
+
+#### 4. Vowel or Consonant Checker  
+**Description:**  
+Determines whether a given character is a vowel or a consonant.
+
+**Concepts Used:**  
+Strings, Conditional Statements  
+
+---
+
+#### 5. Username Validator  
+**Description:**  
+Validates a username based on conditions like length and format.
+
+**Concepts Used:**  
+Strings, Conditional Statements  
+
+---
+
+#### 6. Email Validator  
+**Description:**  
+Performs basic validation of an email format using string checks.
+
+**Concepts Used:**  
+Strings, Conditional Statements  
+
+---
+
+#### 7. String Analyzer Tool  
+**Description:**  
+Analyzes a string to display length, first character, last character, and reversed string.
+
+**Concepts Used:**  
+Strings, Slicing  
+
+---
+
+#### 8. Simple Login System  
+**Description:**  
+Validates user credentials using nested conditional statements.
+
+**Concepts Used:**  
+Nested Conditions, Strings  
+
+---
+
+#### 9. Password Strength Checker  
+**Description:**  
+Evaluates password strength based on length and character requirements.
+
+**Concepts Used:**  
+Strings, Conditional Statements, Logical Operators  
+
+---
+
+#### 10. Grade Calculator  
+**Description:**  
+Assigns grades based on marks using conditional logic.
+
+**Concepts Used:**  
+Conditional Statements  
+
+---
+
+### Key Takeaways
+
+- Learned how to implement decision-making in programs  
+- Improved understanding of string manipulation  
+- Practiced writing logical conditions   
+
+---
+
+## Day 3 – Lists & Tuples
+
+### Topics Covered
+
+- **Lists** → Storing and modifying collections of data  
+- **Tuples** → Immutable data structures for fixed collections  
+- **Indexing & Accessing Elements** → Retrieving values from lists and tuples  
+- **Basic Operations** → Using functions like `max()`, `min()`, `sum()`  
+- **Nested Data Structures** → Using tuples inside lists  
+
+---
+
+### Projects
+
+#### 1. Student Performance Report  
+**Description:**  
+Stores student names and marks using tuples inside a list and identifies topper and lowest scorer.
+
+**Concepts Used:**  
+Lists, Tuples, Built-in Functions  
+
+---
+
+#### 2. Shopping Cart Summary  
+**Description:**  
+Calculates total cost and identifies the most and least expensive items.
+
+**Concepts Used:**  
+Lists, Tuples, Indexing  
+
+---
+
+#### 3. Number Insight Tool  
+**Description:**  
+Analyzes a list of numbers to find maximum, minimum, and check existence of a value.
+
+**Concepts Used:**  
+Lists, Conditional Statements  
+
+---
+
+#### 4. Contact Selector  
+**Description:**  
+Retrieves contact details from a list of tuples based on user-selected index.
+
+**Concepts Used:**  
+Lists, Tuples, Indexing  
+
+---
+
+#### 5. Student Comparison System  
+**Description:**  
+Compares marks of two students and determines who scored higher.
+
+**Concepts Used:**  
+Tuples, Conditional Statements  
+
+---
+
+### Key Takeaways
+
+- Learned how to store and manage collections of data  
+- Understood the difference between lists and tuples  
+- Practiced accessing and manipulating structured data   
+
+---
 
 
 ## Future Goals
