@@ -296,6 +296,115 @@ Tuples, Conditional Statements
 
 ---
 
+## Day 4 – Dictionaries & Sets
+
+### Topics Covered
+
+- **Dictionaries** → Key-value pairs to store structured data  
+- **Accessing & Modifying** → Retrieving, adding, updating, and deleting data  
+- **Checking Existence** → Using `in` for keys and values  
+- **Sets** → Storing unique elements without duplicates  
+- **Set Operations** → Union, Intersection, Difference, and Membership  
+
+---
+
+### Projects
+
+#### 1. Student Database Lookup  
+**Description:**  
+Stores student names and marks in a dictionary and allows checking marks by student name.
+
+**Concepts Used:**  
+Dictionaries, Conditional Statements  
+
+---
+
+#### 2. Word Frequency Checker  
+**Description:**  
+Counts occurrences of specific words in a given sentence using dictionary lookups.
+
+**Concepts Used:**  
+Dictionaries, Strings  
+
+---
+
+#### 3. Unique Elements Finder  
+**Description:**  
+Converts a list with duplicates into a set to display unique elements.
+
+**Concepts Used:**  
+Sets, Data Structures  
+
+---
+
+#### 4. Login System  
+**Description:**  
+Simulates a simple login system with username-password pairs stored in a dictionary. Validates credentials using conditional statements.
+
+**Concepts Used:**  
+Dictionaries, Conditional Statements, Nested Conditions  
+
+---
+
+#### 5. Common Interest Finder  
+**Description:**  
+Finds common elements between two sets of interests to determine shared items.
+
+**Concepts Used:**  
+Sets, Set Operations, Conditional Statements  
+
+---
+
+#### 6. Inventory Tracker  
+**Description:**  
+Tracks items and quantities using a dictionary. Checks if a requested item is available.
+
+**Concepts Used:**  
+Dictionaries, Conditional Statements  
+
+---
+
+#### 7. Course Enrollment Checker  
+**Description:**  
+Stores courses with enrolled student names in a dictionary. Checks if a specific student is enrolled in a course.
+
+**Concepts Used:**  
+Dictionaries, Sets, Conditional Statements  
+
+---
+
+#### 8. Email Uniqueness Validator  
+**Description:**  
+Maintains a set of registered emails and checks if a new email is unique before adding it.
+
+**Concepts Used:**  
+Sets, Conditional Statements  
+
+---
+
+#### 9. Expense Tracker  
+**Description:**  
+Stores expenses in a dictionary with category names and amounts. Calculates total and identifies the highest expense category.
+
+**Concepts Used:**  
+Dictionaries, Built-in Functions  
+
+---
+
+#### 10. Favorite Programming Languages  
+**Description:**  
+Stores favorite programming languages for multiple users using sets. Finds common favorites among users.
+
+**Concepts Used:**  
+Sets, Set Operations, Conditional Statements  
+
+---
+
+### Key Takeaways
+
+- Learned how to store and retrieve structured data efficiently using dictionaries  
+- Understood how sets ensure uniqueness and allow easy comparison  
+- Built a foundation for more complex data handling in Python
 
 ## Future Goals
 
