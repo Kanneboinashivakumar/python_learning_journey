@@ -498,6 +498,154 @@ Prints patterns (like triangle, pyramid) using nested loops and `range()`.
 - Practiced combining loops with conditional logic  
 - Built projects that mimic real-world automation and computation
 
+## Day 6 – Functions & Recursion
+
+### Topics Covered
+
+- **Functions** → Defining reusable blocks of code using `def`  
+- **Arguments & Return Values** → Passing data into functions and returning results  
+- **Recursion** → Function calling itself to solve problems  
+- **Base Case & Recursive Case** → Stopping condition and recursive logic  
+
+---
+
+### Projects
+
+#### 1. Recursive Factorial Calculator
+**Filename:** `factorial_recursive.py`  
+**Description:**  
+Create a function to calculate the factorial of a number using recursion. Take user input and display the factorial.  
+**Concepts Used:** Functions, recursion  
+
+#### 2. Fibonacci Sequence Generator
+**Filename:** `fibonacci_recursive.py`  
+**Description:**  
+Generate the first `n` Fibonacci numbers using recursion (and optionally iteratively).  
+**Concepts Used:** Functions, recursion  
+
+#### 3. Sum of Digits (Recursive)
+**Filename:** `sum_digits.py`  
+**Description:**  
+Create a function to calculate the sum of digits of a number using recursion.  
+**Concepts Used:** Functions, recursion  
+
+#### 4. Power Calculator
+**Filename:** `power_recursive.py`  
+**Description:**  
+Write a function to calculate `x` raised to the power `y` using recursion.  
+**Concepts Used:** Functions, recursion  
+
+#### 5. Palindrome Checker
+**Filename:** `palindrome_checker.py`  
+**Description:**  
+Check if a string is a palindrome using a recursive function.  
+**Concepts Used:** Functions, recursion, string handling  
+
+#### 6. Greatest Common Divisor (GCD)
+**Filename:** `gcd_recursive.py`  
+**Description:**  
+Calculate the GCD of two numbers using a recursive function based on Euclid’s algorithm.  
+**Concepts Used:** Functions, recursion, mathematical logic  
+
+#### 7. Reverse a String
+**Filename:** `reverse_string.py`  
+**Description:**  
+Reverse a string using a recursive function.  
+**Concepts Used:** Functions, recursion, string slicing  
+
+#### 8. Decimal to Binary Converter
+**Filename:** `decimal_to_binary.py`  
+**Description:**  
+Convert a decimal number to binary using recursion.  
+**Concepts Used:** Functions, recursion, number systems  
+
+#### 9. Countdown Timer
+**Filename:** `countdown.py`  
+**Description:**  
+Print numbers from `n` down to 1 recursively.  
+**Concepts Used:** Functions, recursion  
+
+#### 10. Nested Sum of Lists
+**Filename:** `nested_list_sum.py`  
+**Description:**  
+Calculate the sum of numbers in a nested list using recursion.  
+**Concepts Used:** Functions, recursion, list handling  
+
+---
+
+## Day 7 – File I/O
+
+### Topics Covered
+
+- **File Reading** → Open and read files using `open()` and `.read()` or `.readlines()`  
+- **File Writing** → Write to files using `open()` with `"w"` or `"a"` mode  
+- **File Handling Modes** → `'r'`, `'w'`, `'a'` and `'r+'`  
+- **Closing Files** → Using `.close()` or `with` statement  
+
+---
+
+### Projects
+
+#### 1. Text File Word Counter
+**Filename:** `word_counter.py`  
+**Description:**  
+Read a text file and count total words and optionally frequency of each word.  
+**Concepts Used:** File reading, string manipulation  
+
+#### 2. Log File Analyzer
+**Filename:** `log_analyzer.py`  
+**Description:**  
+Read a log file and extract important entries such as errors or timestamps.  
+**Concepts Used:** File reading, string search  
+
+#### 3. Student Record Manager
+**Filename:** `student_records.py`  
+**Description:**  
+Store student info in a file and provide options to add, view, or search students.  
+**Concepts Used:** File I/O, functions, conditional statements  
+
+#### 4. To-Do List Application
+**Filename:** `todo_list.py`  
+**Description:**  
+Add, remove, and view tasks stored in a file.  
+**Concepts Used:** File reading/writing, lists, loops  
+
+#### 5. CSV Data Reader
+**Filename:** `csv_reader.py`  
+**Description:**  
+Read a CSV file and display data in formatted output. Optionally calculate sums or averages of numeric columns.  
+**Concepts Used:** File reading, string splitting, loops  
+
+#### 6. File Backup Utility
+**Filename:** `file_backup.py`  
+**Description:**  
+Copy content of one file into a new backup file.  
+**Concepts Used:** File reading/writing, error handling  
+
+#### 7. Unique Word Extractor
+**Filename:** `unique_words.py`  
+**Description:**  
+Read a file and extract all unique words sorted alphabetically.  
+**Concepts Used:** File reading, sets, string manipulation  
+
+#### 8. Simple Diary Application
+**Filename:** `diary_app.py`  
+**Description:**  
+Write daily notes to a file and read past entries by date.  
+**Concepts Used:** File append mode, input/output, string formatting  
+
+#### 9. File Line Reverser
+**Filename:** `line_reverser.py`  
+**Description:**  
+Reverse the order of lines in a file and save to a new file.  
+**Concepts Used:** File reading/writing, lists, loops  
+
+#### 10. Character Frequency Counter
+**Filename:** `char_frequency.py`  
+**Description:**  
+Count frequency of each character in a file.  
+**Concepts Used:** File reading, dictionaries, loops  
+
 
 ## Future Goals
 
