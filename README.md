@@ -406,6 +406,99 @@ Sets, Set Operations, Conditional Statements
 - Understood how sets ensure uniqueness and allow easy comparison  
 - Built a foundation for more complex data handling in Python
 
+
+## Day 5 – Loops & Iteration
+
+### Topics Covered
+
+- **For Loop** → Iterating over sequences and using `range()`  
+- **While Loop** → Repeating actions until a condition is met  
+- **Loop Control Statements** → `break`, `continue`, `pass`  
+- **Nested Loops** → Using loops inside loops  
+- **Range Function** → Generating sequences of numbers efficiently  
+
+---
+
+### Projects
+
+#### 1. Multiplication Table Generator (`multiplication_table.py`)  
+**Description:**  
+Takes a number and prints its multiplication table up to a given range.  
+**Concepts Used:** `for`, `range`, string formatting  
+
+---
+
+#### 2. Factorial Calculator (`factorial_calculator.py`)  
+**Description:**  
+Calculates factorial of a number using a `while` loop.  
+**Concepts Used:** `while`, arithmetic operations, conditional statements  
+
+---
+
+#### 3. Prime Number Checker in Range (`prime_in_range.py`)  
+**Description:**  
+Prints all prime numbers in a given start-to-end range.  
+**Concepts Used:** `for`, `while`, `break`, conditional statements  
+
+---
+
+#### 4. Number Guessing Game (`number_guessing.py`)  
+**Description:**  
+User guesses a randomly generated number until correct. Hints provided for high/low guesses.  
+**Concepts Used:** `while`, `break`, conditional statements  
+
+---
+
+#### 5. Fibonacci Sequence Generator (`fibonacci_sequence.py`)  
+**Description:**  
+Generates Fibonacci sequence up to `n` terms.  
+**Concepts Used:** `while`, arithmetic operations  
+
+---
+
+#### 6. Sum of Natural Numbers (`sum_natural_numbers.py`)  
+**Description:**  
+Sums all natural numbers up to a given number using `for` loop.  
+**Concepts Used:** `for`, `range`, arithmetic operations  
+
+---
+
+#### 7. Simple Menu-Driven Calculator (`menu_calculator.py`)  
+**Description:**  
+Shows a menu of operations (+, -, *, /) and performs calculations in a loop until user exits.  
+**Concepts Used:** `while`, `if-elif-else`, `break`  
+
+---
+
+#### 8. List Filter Tool (`list_filter.py`)  
+**Description:**  
+Filters all even or odd numbers from a list based on user choice using loops.  
+**Concepts Used:** `for`, `if`, `continue`, `append()`  
+
+---
+
+#### 9. Password Attempts Limiter (`password_limiter.py`)  
+**Description:**  
+Allows 3 attempts to enter the correct password. Uses `break` on success.  
+**Concepts Used:** `while`, `break`, conditional statements  
+
+---
+
+#### 10. Pattern Printer (`pattern_printer.py`)  
+**Description:**  
+Prints patterns (like triangle, pyramid) using nested loops and `range()`.  
+**Concepts Used:** `for`, `range`, string multiplication  
+
+---
+
+### Key Takeaways
+
+- Mastered loops for repetitive tasks  
+- Learned how to control loops using `break`, `continue`, and `pass`  
+- Practiced combining loops with conditional logic  
+- Built projects that mimic real-world automation and computation
+
+
 ## Future Goals
 
 - Strengthen problem-solving skills  
