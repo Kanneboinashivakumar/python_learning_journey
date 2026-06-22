@@ -683,7 +683,71 @@ Count frequency of each character in a file.
 **Concepts Used:** File reading, dictionaries, loops  
 
 ---
+---
 
+# Day 8 – Practice & Problem Solving 🧠
+
+## 📅 Today’s Work
+
+Today I focused on strengthening Python fundamentals by solving multiple beginner-level logic programs and revising important concepts.
+
+---
+
+## 📚 Topics Covered
+
+### 1. Escape Sequences
+Learned special characters like \n, \t, \\, \", \'
+Understood how strings behave with formatting and control characters
+
+---
+
+### 2. String Methods Revision
+Practiced important string functions:
+upper(), lower(), title(), strip(), replace(), split(), join()
+Improved understanding of string manipulation and real-world usage
+
+---
+
+### 3. Leap Year Checker
+Implemented logic using conditional statements
+Learned proper rule:
+  Divisible by 400 → Leap Year
+  Divisible by 100 → Not Leap Year
+  Divisible by 4 → Leap Year
+
+---
+
+### 4. Quadratic Equation Root Finder
+Used discriminant formula:
+  b² - 4ac
+Learned to handle:
+  Real roots
+  Equal roots
+  Complex roots
+
+---
+
+### 5. Vowel Count Program
+Counted vowels in a string
+Practiced string traversal and conditional logic
+
+---
+
+### 6. Sum of Vowels Logic Extension
+Extended vowel counting logic into numerical calculation problems
+Improved problem-solving approach
+
+---
+
+## 🚀 Progress Update
+
+I am continuously improving my Python fundamentals and building strong problem-solving skills through daily practice and mini programs.
+
+Next step:
+➡️ Start more advanced loop problems and mini projects
+➡️ Improve logical thinking for coding interviews
+
+---
 
 ## Future Goals
 
