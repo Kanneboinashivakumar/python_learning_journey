@@ -3,8 +3,85 @@
 This repository documents my **daily progress in learning Python**, where I focus on understanding core concepts and applying them through small, practical projects.
 Instead of only learning theory, I am building hands-on projects to strengthen my problem-solving skills and coding confidence.
 
+
+<p align="center">
+  <img src="assets/banner.png" alt="Python Learning Journey Banner" width="100%">
+</p>
+
 ---
 
+## Repository Highlights
+
+- Daily learning logs
+- 80+ Python practice programs
+- Mini projects based on real-world logic
+- Problem-solving exercises
+- Concept-wise organized learning
+- Preparing for DSA & Software Development
+
+---
+## 📈 Learning Progress
+
+```text
+Python Basics         ████████████████████ 100%
+Strings               ████████████████████ 100%
+Lists & Tuples        ████████████████████ 100%
+Dictionaries & Sets   ████████████████████ 100%
+Loops                 ████████████████████ 100%
+Functions             ████████████████████ 100%
+File Handling         ████████████████████ 100%
+Logic Practice        ████████████████████ 100%
+Object Oriented       ████░░░░░░░░░░░░░░░░ 20%
+```
+
+---
+
+## GitHub Stats
+
+<p align="center">
+
+<img height="180em" src="https://github-readme-stats.vercel.app/api?username=Kanneboinashivakumar&show_icons=true&theme=tokyonight"/>
+
+<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Kanneboinashivakumar&layout=compact&theme=tokyonight"/>
+
+</p>
+
+---
+
+## Repository Statistics
+
+<p align="center">
+
+<img src="https://img.shields.io/badge/Python-100%25-blue?style=for-the-badge&logo=python">
+
+<img src="https://img.shields.io/badge/Projects-60+-success?style=for-the-badge">
+
+<img src="https://img.shields.io/badge/Learning_Days-8-orange?style=for-the-badge">
+
+<img src="https://img.shields.io/badge/Status-Active-brightgreen?style=for-the-badge">
+
+</p>
+
+---
+
+## 📂 Repository Structure
+
+```text
+📦 python_learning_journey
+
+├── 📁 Day_1_Basics
+├── 📁 Day_2_Strings
+├── 📁 Day_3_Lists
+├── 📁 Day_4_Dictionaries
+├── 📁 Day_5_Loops
+├── 📁 Day_6_Functions
+├── 📁 Day_7_File_Handling
+├── 📁 Day_8_Practice
+└── 📄 README.md
+```
+
+---
+  
 ## Day 1 – Python Basics
 
 ### Topics Covered
@@ -685,30 +762,30 @@ Count frequency of each character in a file.
 ---
 ---
 
-# Day 8 – Practice & Problem Solving 🧠
+## Day 8 – Practice & Problem Solving 
 
-## 📅 Today’s Work
+### Today’s Work
 
 Today I focused on strengthening Python fundamentals by solving multiple beginner-level logic programs and revising important concepts.
 
 ---
 
-## 📚 Topics Covered
+### Topics Covered
 
-### 1. Escape Sequences
+#### 1. Escape Sequences
 Learned special characters like \n, \t, \\, \", \'
 Understood how strings behave with formatting and control characters
 
 ---
 
-### 2. String Methods Revision
+#### 2. String Methods Revision
 Practiced important string functions:
 upper(), lower(), title(), strip(), replace(), split(), join()
 Improved understanding of string manipulation and real-world usage
 
 ---
 
-### 3. Leap Year Checker
+#### 3. Leap Year Checker
 Implemented logic using conditional statements
 Learned proper rule:
   Divisible by 400 → Leap Year
@@ -717,7 +794,7 @@ Learned proper rule:
 
 ---
 
-### 4. Quadratic Equation Root Finder
+#### 4. Quadratic Equation Root Finder
 Used discriminant formula:
   b² - 4ac
 Learned to handle:
@@ -727,25 +804,25 @@ Learned to handle:
 
 ---
 
-### 5. Vowel Count Program
+#### 5. Vowel Count Program
 Counted vowels in a string
 Practiced string traversal and conditional logic
 
 ---
 
-### 6. Sum of Vowels Logic Extension
+#### 6. Sum of Vowels Logic Extension
 Extended vowel counting logic into numerical calculation problems
 Improved problem-solving approach
 
 ---
 
-## 🚀 Progress Update
+##  Progress Update
 
 I am continuously improving my Python fundamentals and building strong problem-solving skills through daily practice and mini programs.
 
 Next step:
-➡️ Start more advanced loop problems and mini projects
-➡️ Improve logical thinking for coding interviews
+Start more advanced loop problems and mini projects
+Improve logical thinking for coding interviews
 
 ---
 
@@ -762,3 +839,19 @@ Next step:
 
 This is just the beginning of my Python journey.  
 I will continue updating this repository daily as I learn and grow.
+
+---
+
+---
+
+<p align="center">
+⭐ <b>If you like this repository, consider giving it a star!</b>
+</p>
+
+<p align="center">
+🚀 Learning • Building • Growing Every Day
+</p>
+
+<p align="center">
+Made with ❤️ by <b>K. Shiva Kumar</b>
+</p>
