@@ -81,7 +81,7 @@ Object Oriented       ████░░░░░░░░░░░░░░░�
 ```
 
 ---
-  
+
 ## Day 1 – Python Basics
 
 ### Topics Covered
@@ -842,10 +842,8 @@ I will continue updating this repository daily as I learn and grow.
 
 ---
 
----
-
 <p align="center">
-⭐ <b>If you like this repository, consider giving it a star!</b>
+⭐ If you like this repository, consider giving it a star!
 </p>
 
 <p align="center">
