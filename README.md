@@ -5,6 +5,90 @@ Instead of only learning theory, I am building hands-on projects to strengthen m
 
 ---
 
+## 📌 Repository Highlights
+
+- 📅 Daily learning logs
+- 🚀 80+ Python practice programs
+- 💡 Mini projects based on real-world logic
+- 🧠 Problem-solving exercises
+- 📚 Concept-wise organized learning
+- 🎯 Preparing for DSA & Software Development
+
+---
+## 📈 Learning Progress
+
+```text
+Python Basics         ████████████████████ 100%
+
+Strings               ████████████████████ 100%
+
+Lists & Tuples        ████████████████████ 100%
+
+Dictionaries & Sets   ████████████████████ 100%
+
+Loops                 ████████████████████ 100%
+
+Functions             ████████████████████ 100%
+
+File Handling         ████████████████████ 100%
+
+Logic Practice        ████████████████████ 100%
+
+Object Oriented       ████░░░░░░░░░░░░░░░░ 20%
+```
+
+---
+
+## 📊 GitHub Stats
+
+<p align="center">
+
+<img height="180em" src="https://github-readme-stats.vercel.app/api?username=Kanneboinashivakumar&show_icons=true&theme=tokyonight"/>
+
+<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Kanneboinashivakumar&layout=compact&theme=tokyonight"/>
+
+</p>
+
+---
+
+## 📊 GitHub Stats
+
+<p align="center">
+
+<img height="180em" src="https://github-readme-stats.vercel.app/api?username=Kanneboinashivakumar&show_icons=true&theme=tokyonight"/>
+
+<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Kanneboinashivakumar&layout=compact&theme=tokyonight"/>
+
+</p>
+
+---
+
+## 📂 Repository Structure
+
+```text
+📦 python_learning_journey
+
+├── 📁 Day_1_Basics
+
+├── 📁 Day_2_Strings
+
+├── 📁 Day_3_Lists
+
+├── 📁 Day_4_Dictionaries
+
+├── 📁 Day_5_Loops
+
+├── 📁 Day_6_Functions
+
+├── 📁 Day_7_File_Handling
+
+├── 📁 Day_8_Practice
+
+└── 📄 README.md
+```
+
+---
+  
 ## Day 1 – Python Basics
 
 ### Topics Covered
@@ -762,3 +846,14 @@ Improve logical thinking for coding interviews
 
 This is just the beginning of my Python journey.  
 I will continue updating this repository daily as I learn and grow.
+---
+
+<p align="center">
+
+⭐ If you like this repository, consider giving it a star!
+
+ Learning • Building • Growing Every Day
+
+Made with ❤️ by <b>K. Shiva Kumar</b>
+
+</p>
