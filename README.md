@@ -760,7 +760,6 @@ Count frequency of each character in a file.
 **Concepts Used:** File reading, dictionaries, loops  
 
 ---
----
 
 ## Day 8 – Practice & Problem Solving 
 
@@ -813,6 +812,64 @@ Practiced string traversal and conditional logic
 #### 6. Sum of Vowels Logic Extension
 Extended vowel counting logic into numerical calculation problems
 Improved problem-solving approach
+
+---
+
+### Day 9 – Advanced Functions & Lambda Expressions
+
+#### Topics Covered
+Variable Arguments (*args)
+User Defined Functions
+Return Values
+Mathematical Functions
+Lambda (Anonymous) Functions
+
+---
+
+#### Projects
+
+---
+
+#### 1. Dynamic Sum Calculator
+
+**Filename:** DynamicSum.py
+**Description:**
+Creates a function that accepts any number of arguments using *args and calculates their total sum, demonstrating flexible function parameters.
+
+**Concepts Used:**
+Functions, Variable Arguments (*args), Loops, Built-in Functions
+
+---
+
+#### 2. Area of Circle Calculator
+
+**Filename:** area_of_circle_function.py
+**Description:**
+
+Implements a reusable function to calculate the area of a circle using the formula πr² based on user input.
+
+**Concepts Used:**
+Functions, Parameters, Return Values, Math Module
+
+---
+
+#### 3. Sum of Two Numbers Using Lambda
+
+**Filename**: sum_of_2num_lambda.py
+**Description:**
+
+Uses a lambda (anonymous) function to perform the addition of two numbers in a concise and functional programming style.
+
+**Concepts Used:**
+
+Lambda Functions, Anonymous Functions, Function Assignment
+
+### Key Takeaways
+• Learned how to create reusable functions for different tasks.
+• Explored variable-length arguments using *args.
+• Understood the use of return values in function design.
+• Practiced writing concise anonymous functions using lambda.
+• Improved code modularity and readability through functions.
 
 ---
 
