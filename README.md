@@ -1,4 +1,6 @@
-# 🐍 Python Learning Journey
+<h1 align="center">🐍 Python Learning Journey</h1>
+
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&center=true&vCenter=true&width=550&lines=Learning+Python+Every+Day;Building+Mini+Projects;Improving+Problem+Solving;Next+Stop+%E2%86%92+OOP+%26+DSA" />
 
 This repository documents my **daily progress in learning Python**, where I focus on understanding core concepts and applying them through small, practical projects.
 Instead of only learning theory, I am building hands-on projects to strengthen my problem-solving skills and coding confidence.
@@ -990,8 +992,6 @@ I will continue updating this repository daily as I learn and grow.
 
 # 🎉 Thank You for Visiting!
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&center=true&vCenter=true&width=550&lines=Learning+Python+Every+Day;Building+Mini+Projects;Improving+Problem+Solving;Next+Stop+%E2%86%92+OOP+%26+DSA" />
-
 ### ⭐ If you found this repository useful, consider giving it a star!
 
 <p align="center">
@@ -1005,9 +1005,3 @@ Made with ❤️ by <b>K. Shiva Kumar</b>
 **Happy Coding! 🚀**
 
 </div>
-
-
-![Python](https://img.shields.io/badge/Python-3.x-blue?style=for-the-badge&logo=python)
-![Status](https://img.shields.io/badge/Status-Active-success?style=for-the-badge)
-![Projects](https://img.shields.io/badge/Mini%20Projects-70+-orange?style=for-the-badge)
-![Learning](https://img.shields.io/badge/Daily-Learning-red?style=for-the-badge)
