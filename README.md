@@ -59,13 +59,13 @@ Object Oriented       ████░░░░░░░░░░░░░░░�
 
 <p align="center">
 
-<img src="https://img.shields.io/badge/Python-100%25-blue?style=for-the-badge&logo=python">
+<img src="https://img.shields.io/badge/Python-Learning-blue?style=for-the-badge&logo=python">
 
-<img src="https://img.shields.io/badge/Projects-60+-success?style=for-the-badge">
+<img src="https://img.shields.io/badge/70%2B-Mini%20Projects-success?style=for-the-badge">
 
-<img src="https://img.shields.io/badge/Learning_Days-8-orange?style=for-the-badge">
+<img src="https://img.shields.io/badge/Daily-Practice-orange?style=for-the-badge">
 
-<img src="https://img.shields.io/badge/Status-Active-brightgreen?style=for-the-badge">
+<img src="https://img.shields.io/badge/Status-Actively%20Maintained-brightgreen?style=for-the-badge">
 
 </p>
 
