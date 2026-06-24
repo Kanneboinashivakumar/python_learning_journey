@@ -59,10 +59,6 @@ Object Oriented       ████░░░░░░░░░░░░░░░�
 
 <p align="center">
 
-## Repository Statistics
-
-<p align="center">
-
 <img src="https://img.shields.io/badge/Python-100%25-blue?style=for-the-badge&logo=python">
 
 <img src="https://img.shields.io/badge/Projects-70+-success?style=for-the-badge">
