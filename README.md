@@ -1,10 +1,17 @@
 <h1 align="center">🐍 Python Learning Journey</h1>
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&center=true&vCenter=true&width=550&lines=Learning+Python+Every+Day;Building+Mini+Projects;Improving+Problem+Solving;Next+Stop+%E2%86%92+OOP+%26+DSA" />
+----
 
 This repository documents my **daily progress in learning Python**, where I focus on understanding core concepts and applying them through small, practical projects.
 Instead of only learning theory, I am building hands-on projects to strengthen my problem-solving skills and coding confidence.
 
+----
+
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&center=true&vCenter=true&width=550&lines=Learning+Python+Every+Day;Building+Mini+Projects;Improving+Problem+Solving;Next+Stop+%E2%86%92+OOP+%26+DSA" />
+</p>
+
+----
 
 <p align="center">
   <img src="assets/banner.png" alt="Python Learning Journey Banner" width="100%">
