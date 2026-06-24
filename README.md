@@ -873,22 +873,107 @@ Lambda Functions, Anonymous Functions, Function Assignment
 
 ---
 
-##  Progress Update
+## Day 10 – Revision & Function Practice
 
-I am continuously improving my Python fundamentals and building strong problem-solving skills through daily practice and mini programs.
+### Today’s Work
 
-Next step:
-Start more advanced loop problems and mini projects
-Improve logical thinking for coding interviews
+Today was dedicated to revising all the Python concepts learned so far instead of learning a new topic. I reviewed previously completed programs, strengthened my understanding of recursion, and solved a couple of additional function-based problems to improve logical thinking and problem-solving skills.
+
+---
+
+### Topics Revised
+
+Python Basics
+Strings
+Lists & Tuples
+Dictionaries & Sets
+Loops
+Functions
+Recursion
+
+---
+
+### Additional Practice
+
+#### 1. Max and Min List Finder
+
+**Filename:** `max_and_min_list.py`
+
+**Description:**
+
+Created a reusable function that accepts a list of numbers and returns the maximum and minimum values, reinforcing function design and the effective use of built-in functions.
+
+**Concepts Used:**
+lists, built-in methods
+
+---
+
+#### 2. Remove Repeated Elements
+
+**Filename:** `remove_repeated_elements.py`
+
+**Description:**
+
+Implemented a function to remove duplicate elements from a list while preserving unique values, improving understanding of lists, sets, and data manipulation.
+
+**Concepts Used:**
+
+Lists, Sets
+
+---
+
+### Recursion Revision
+
+Revisited previously learned recursion concepts by practicing and reviewing recursive solutions for:
+
+Recursive Factorial
+Recursive Fibonacci
+Sum of Digits
+Power Calculator
+Palindrome Checker
+Greatest Common Divisor (GCD)
+Reverse String
+Decimal to Binary Conversion
+Countdown
+Nested List Sum
+
+This revision helped reinforce the importance of base cases, recursive calls, and breaking problems into smaller subproblems.
+
+---
+
+### Key Takeaways
+
+Revised all previously learned Python fundamentals.
+Strengthened understanding of recursion through revision and practice.
+Improved problem-solving and logical thinking skills.
+Practiced writing cleaner, reusable, and well-structured functions.
+Built confidence by revisiting concepts instead of rushing into new topics.
+
+---
+
+## Progress Update
+
+I am continuously strengthening my Python fundamentals through consistent revision and hands-on practice. Revisiting previously learned concepts has improved my coding style, logical reasoning, and confidence in solving problems independently.
+
+**Next Step:**
+
+Start **Object-Oriented Programming (OOP)** in Python and explore:
+
+- Classes & Objects
+- Constructors (`__init__`)
+- Instance Variables & Methods
+- Encapsulation Basics
+- Real-world OOP Mini Projects
 
 ---
 
 ## Future Goals
 
-- Strengthen problem-solving skills  
-- Build more real-world mini projects  
-- Start Data Structures & Algorithms (DSA)  
-- Maintain consistency in daily coding  
+Build a strong foundation in Object-Oriented Programming
+Continue improving problem-solving skills
+Solve more function and recursion challenges
+Start implementing real-world Python projects
+Maintain consistency in daily coding practice
 
 ---
 
@@ -899,9 +984,15 @@ I will continue updating this repository daily as I learn and grow.
 
 ---
 
-<p align="center">
-⭐ If you like this repository, consider giving it a star!
-</p>
+---
+
+<div align="center">
+
+# 🎉 Thank You for Visiting!
+
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&center=true&vCenter=true&width=550&lines=Learning+Python+Every+Day;Building+Mini+Projects;Improving+Problem+Solving;Next+Stop+%E2%86%92+OOP+%26+DSA" />
+
+### ⭐ If you found this repository useful, consider giving it a star!
 
 <p align="center">
 🚀 Learning • Building • Growing Every Day
@@ -910,3 +1001,13 @@ I will continue updating this repository daily as I learn and grow.
 <p align="center">
 Made with ❤️ by <b>K. Shiva Kumar</b>
 </p>
+
+**Happy Coding! 🚀**
+
+</div>
+
+
+![Python](https://img.shields.io/badge/Python-3.x-blue?style=for-the-badge&logo=python)
+![Status](https://img.shields.io/badge/Status-Active-success?style=for-the-badge)
+![Projects](https://img.shields.io/badge/Mini%20Projects-70+-orange?style=for-the-badge)
+![Learning](https://img.shields.io/badge/Daily-Learning-red?style=for-the-badge)
