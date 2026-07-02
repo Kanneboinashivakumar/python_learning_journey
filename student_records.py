@@ -12,7 +12,7 @@ def view_students():
 def search_student():
     name = input("Enter name to search: ")
     with open("students.txt", "r") as file:
-        found = False
+        found = False   
         for line in file:
             if line.startswith(name + ","):
                 print("Found:", line.strip())

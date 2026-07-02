@@ -958,19 +958,109 @@ Built confidence by revisiting concepts instead of rushing into new topics.
 
 ---
 
+# 🐍 DAY 11 – Object Oriented Programming (OOPs Part 1)
+
+## 📌 Topics Covered
+- Classes
+- Objects
+- Constructors (__init__)
+- Instance Variables
+- Instance Methods
+- Basic OOP Design
+
+---
+
+## 🧠 What I Learned Today
+
+Today I started Object Oriented Programming in Python.
+
+I learned how to:
+- Create classes as blueprints
+- Create objects from classes
+- Use constructors to initialize data
+- Store data using instance variables
+- Write methods to perform operations on data
+
+---
+## 🟢 Projects Completed
+### 1. Student Report Card System
+**File:** Student_Report_Card.py
+
+#### Description:
+A class-based system to store student marks and calculate average and result.
+
+#### Concepts Used:
+- Class
+- Object
+- Constructor
+- Methods
+- Conditional logic
+
+---
+
+### 2. Bank Account System
+**File:** Bank_Account_System.py
+
+#### Description:
+Simulates a simple banking system with deposit, withdrawal, and balance check.
+
+#### Concepts Used:
+- Class
+- Object
+- State management
+- Methods
+- Conditional logic
+
+---
+
+### 3. Library Management System
+**File:** Library_Management_System.py
+
+#### Description:
+Manages books in a library including adding, issuing, and returning books.
+
+#### Concepts Used:
+- Multiple classes
+- Object interaction
+- Lists of objects
+- State tracking
+
+---
+
+### 4. ATM System (Advanced)
+**File:** ATM_System.py
+
+#### Description:
+Simulates ATM operations like PIN verification, deposit, withdrawal, and PIN change.
+
+#### Concepts Used:
+- Encapsulation basics
+- Condition checking
+- Object state updates
+
+---
+
+## 🚀 Key Takeaways
+- Classes help organize real-world problems into code
+- Objects store data and behavior together
+- Constructors initialize object data automatically
+- Methods define actions on data
+- OOP makes code reusable and scalable
+
+---
+
+## 🎯 Next Step
+- Encapsulation (private variables)
+- Inheritance
+- Polymorphism
+- Real-world OOP mini project system
+
+---
 ## Progress Update
 
+Day 11 completed – OOP Part 1 done successfully
+Started building real-world Python systems using classes and objects.
 I am continuously strengthening my Python fundamentals through consistent revision and hands-on practice. Revisiting previously learned concepts has improved my coding style, logical reasoning, and confidence in solving problems independently.
-
-**Next Step:**
-
-Start **Object-Oriented Programming (OOP)** in Python and explore:
-
-- Classes & Objects
-- Constructors (`__init__`)
-- Instance Variables & Methods
-- Encapsulation Basics
-- Real-world OOP Mini Projects
 
 ---
 
