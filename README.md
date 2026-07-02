@@ -958,9 +958,9 @@ Built confidence by revisiting concepts instead of rushing into new topics.
 
 ---
 
-# 🐍 DAY 11 – Object Oriented Programming (OOPs Part 1)
+## DAY 11 – Object Oriented Programming (OOPs Part 1)
 
-## 📌 Topics Covered
+### Topics Covered
 - Classes
 - Objects
 - Constructors (__init__)
@@ -970,7 +970,7 @@ Built confidence by revisiting concepts instead of rushing into new topics.
 
 ---
 
-## 🧠 What I Learned Today
+### What I Learned Today
 
 Today I started Object Oriented Programming in Python.
 
@@ -982,8 +982,8 @@ I learned how to:
 - Write methods to perform operations on data
 
 ---
-## 🟢 Projects Completed
-### 1. Student Report Card System
+### Projects Completed
+#### 1. Student Report Card System
 **File:** Student_Report_Card.py
 
 #### Description:
@@ -998,7 +998,7 @@ A class-based system to store student marks and calculate average and result.
 
 ---
 
-### 2. Bank Account System
+#### 2. Bank Account System
 **File:** Bank_Account_System.py
 
 #### Description:
@@ -1013,7 +1013,7 @@ Simulates a simple banking system with deposit, withdrawal, and balance check.
 
 ---
 
-### 3. Library Management System
+#### 3. Library Management System
 **File:** Library_Management_System.py
 
 #### Description:
@@ -1027,7 +1027,7 @@ Manages books in a library including adding, issuing, and returning books.
 
 ---
 
-### 4. ATM System (Advanced)
+#### 4. ATM System (Advanced)
 **File:** ATM_System.py
 
 #### Description:
@@ -1040,7 +1040,7 @@ Simulates ATM operations like PIN verification, deposit, withdrawal, and PIN cha
 
 ---
 
-## 🚀 Key Takeaways
+###  Key Takeaways
 - Classes help organize real-world problems into code
 - Objects store data and behavior together
 - Constructors initialize object data automatically
@@ -1049,14 +1049,14 @@ Simulates ATM operations like PIN verification, deposit, withdrawal, and PIN cha
 
 ---
 
-## 🎯 Next Step
+###  Next Step
 - Encapsulation (private variables)
 - Inheritance
 - Polymorphism
 - Real-world OOP mini project system
 
 ---
-## Progress Update
+### Progress Update
 
 Day 11 completed – OOP Part 1 done successfully
 Started building real-world Python systems using classes and objects.
