@@ -1048,19 +1048,219 @@ Simulates ATM operations like PIN verification, deposit, withdrawal, and PIN cha
 - OOP makes code reusable and scalable
 
 ---
+## DAY 12 – Object-Oriented Programming (OOP Part 2) & Mini Projects
 
-###  Next Step
-- Encapsulation (private variables)
+###  Topics Covered
+
+### Object-Oriented Programming (OOP)
+
 - Inheritance
+- Single Inheritance
+- Method Overriding
+- `super()` Method
+- Public and Private Members
+- Private Attributes
+- Private Methods
+- Class Variables
+- Instance Variables
+- Static Methods (`@staticmethod`)
+- Class Methods (`@classmethod`)
+- Instance Methods
+- Dynamic Attribute Updates
 - Polymorphism
-- Real-world OOP mini project system
+- Operator Overloading
+- Magic (Dunder) Methods
+  - `__add__`
+  - `__gt__`
+  - `__str__`
 
 ---
-### Progress Update
 
-Day 11 completed – OOP Part 1 done successfully
-Started building real-world Python systems using classes and objects.
-I am continuously strengthening my Python fundamentals through consistent revision and hands-on practice. Revisiting previously learned concepts has improved my coding style, logical reasoning, and confidence in solving problems independently.
+###  What I Learned Today
+
+Today I continued my Object-Oriented Programming journey by learning advanced OOP concepts in Python.
+
+I explored how inheritance allows child classes to reuse properties and methods from parent classes, making code more modular and reusable. I also learned how the `super()` function initializes parent class attributes and methods from child classes.
+
+I understood the difference between public and private members, how private attributes improve encapsulation, and when to use instance methods, class methods, and static methods.
+
+I also explored polymorphism by implementing operator overloading using Python's magic (dunder) methods, allowing custom classes to define their own behavior for operators such as `>` and `+`.
+
+Additionally, I practiced building utility-based mini projects using Python's standard libraries to strengthen my problem-solving skills.
+
+---
+
+### Programs Completed
+
+---
+
+#### 1. Order Comparison using Dunder Method
+**File:** `order_with_dunder.py`
+
+#### Description
+Implemented operator overloading using the `__gt__()` magic method to compare two order objects based on their price.
+
+#### Concepts Used
+- Classes & Objects
+- Constructor
+- Operator Overloading
+- Magic Methods (`__gt__`)
+- Polymorphism
+
+---
+
+#### 2. Employee Details using Inheritance
+**File:** `employee_show_details.py`
+
+#### Description
+Created an employee management example demonstrating inheritance, method overriding, and the use of the `super()` method.
+
+#### Concepts Used
+- Inheritance
+- Method Overriding
+- `super()` Method
+- Constructors
+- Instance Methods
+
+---
+
+#### 3. Circle Area & Circumference Calculator
+**File:** `circle_area.py`
+
+#### Description
+Built a Circle class to calculate the area and circumference of a circle using instance methods.
+
+#### Concepts Used
+- Classes
+- Objects
+- Constructors
+- Instance Methods
+
+---
+
+#### 4. Bank Account using Private Members
+**File:** `bank_account_private.py`
+
+#### Description
+Implemented a bank account system demonstrating encapsulation using private attributes and private methods.
+
+#### Concepts Used
+- Encapsulation
+- Private Attributes
+- Private Methods
+- Instance Methods
+
+---
+
+#### 5. Student Class Methods
+**File:** `student_class_methods.py`
+
+#### Description
+Implemented a student management system to understand the differences between instance methods, class methods, static methods, and class variables.
+
+#### Concepts Used
+- Class Variables
+- Instance Variables
+- `@classmethod`
+- `@staticmethod`
+- Instance Methods
+
+---
+
+#### 6. Complex Number Calculator
+**File:** `complex_number_calculator.py`
+
+#### Description
+Implemented a custom Complex Number class supporting arithmetic operations using operator overloading.
+
+#### Concepts Used
+- Operator Overloading
+- `__add__`
+- `__sub__`
+- `__str__`
+- Polymorphism
+
+---
+
+#### 7. Student Percentage System
+**File:** `student_percentage_system.py`
+
+#### Description
+Created a student result system where percentage is calculated dynamically based on updated marks.
+
+#### Concepts Used
+- Dynamic Data Calculation
+- Constructors
+- Instance Variables
+- Methods
+
+---
+
+#  Mini Projects
+
+---
+
+### Mini Project 1 – Guess the Number Game
+**File:** `Mini_Pjt_1.py`
+
+#### Description
+Developed an interactive number guessing game where the user attempts to guess a randomly generated number. The program provides hints after each incorrect guess and allows the user to quit the game at any time.
+
+#### Concepts Used
+- `random` Module
+- Loops (`while`)
+- Conditional Statements
+- User Input
+- Type Conversion
+- Game Logic
+
+---
+
+### Mini Project 2 – Random Password Generator
+**File:** `Mini_Pjt_2.py`
+
+#### Description
+Built a random password generator that creates secure passwords of user-defined length using letters, digits, and special characters.
+
+#### Concepts Used
+- `random` Module
+- `string` Module
+- String Manipulation
+- Generator Expressions
+- User Input
+
+---
+
+## 🚀 Key Takeaways
+
+- Learned how inheritance promotes code reusability.
+- Understood the role of `super()` in parent-child class relationships.
+- Explored encapsulation using private attributes and methods.
+- Learned the differences between instance methods, class methods, and static methods.
+- Implemented operator overloading using Python's magic methods.
+- Built interactive console applications using loops, conditions, and Python's standard library.
+- Strengthened object-oriented programming skills through hands-on implementations.
+
+---
+
+## 🎯 Next Step
+
+- Abstraction
+- Exception Handling
+- File Handling
+- Modules & Packages
+- Project-Oriented OOP Implementation
+- Larger Real-World Python Projects
+
+---
+
+## ⭐ Progress
+
+-  Completed Day 12 – OOP Part 2
+-  Practiced Advanced Object-Oriented Programming Concepts
+-  Built Multiple OOP Programs
+-  Completed 2 Python Mini Projects
+-  Ready to move towards project-oriented Python development.
 
 ---
 
