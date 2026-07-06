@@ -1,4 +1,4 @@
-# 🐍 Python Learning Journey
+<h1 align="center">🐍 Python Learning Journey</h1>
 
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&center=true&vCenter=true&width=550&lines=Learning+Python+Every+Day;Building+Mini+Projects;Improving+Problem+Solving;Next+Stop+%E2%86%92+OOP+%26+DSA" alt="Typing SVG">
@@ -559,22 +559,33 @@ I am committed to expanding this repository as I learn more advanced Python and 
 
 ## 📊 GitHub Stats & Repository Statistics
 
+
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Kanneboinashivakumar&show_icons=true&theme=tokyonight" alt="GitHub Stats" height="150">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Kanneboinashivakumar&layout=compact&theme=tokyonight" alt="Top Languages" height="150">
+
+<img height="180em" src="https://github-readme-stats.vercel.app/api?username=Kanneboinashivakumar\&show\_icons=true\&theme=tokyonight"/>
+
+<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Kanneboinashivakumar\&layout=compact\&theme=tokyonight"/>
+
 </p>
+
 
 ---
+<div align="center">
 
-<p align="center">
-  <strong>🎉 Thank You for Visiting!</strong><br>
-  If you found this repository helpful or inspiring, please consider giving it a star ⭐ to show your support!
-</p>
+# 🎉 **Thank You for Visiting!**
 
-<p align="center">
-  🚀 <strong>Learning</strong> • 🛠️ <strong>Building</strong> • 📈 <strong>Growing</strong>
-</p>
+### ⭐ **If you found this repository helpful or inspiring, consider giving it a star to support my learning journey!**
 
-<p align="center">
-  Made with ❤️ by <strong>K. Shiva Kumar</strong>
-</p>
+<br>
+
+🚀 **Learning** • 🛠️ **Building** • 📈 **Growing Every Day**
+
+<br>
+
+Made with ❤️ by **K. Shiva Kumar**
+
+<br>
+
+**Happy Coding! 🚀**
+
+</div>
