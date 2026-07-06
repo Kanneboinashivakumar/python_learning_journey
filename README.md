@@ -117,22 +117,22 @@ Exception Handling      ░░░░░░░░░░░░░░░░░░�
 ---
 
 
+
 ## 🛠️ Developed Skills
 
 <p align="center">
-<img src="https://skillicons.dev/icons?i=python,git,github,vscode" />
+  <img src="https://img.shields.io/badge/Python-3.8%2B-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/OOP-Object_Oriented-F28C28?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Problem_Solving-Logic-success?style=for-the-badge" />
+  <br><br>
+  <img src="https://img.shields.io/badge/File_Handling-I/O-blueviolet?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Recursion-Algorithms-red?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Data_Structures-Lists_|_Dicts_|_Sets-yellowgreen?style=for-the-badge" />
+  <br><br>
+  <img src="https://img.shields.io/badge/Git-Version_Control-F05032?style=for-the-badge&logo=git&logoColor=white" />
+  <img src="https://img.shields.io/badge/GitHub-Portfolio-181717?style=for-the-badge&logo=github&logoColor=white" />
 </p>
 
-<p align="center">
-
-<img src="https://img.shields.io/badge/OOP-orange?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/Recursion-red?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/File_Handling-blueviolet?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/Data_Structures-success?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/Problem_Solving-blue?style=for-the-badge"/>
-
-</p>
----
 
 ## 📅 Detailed Learning Log
 
