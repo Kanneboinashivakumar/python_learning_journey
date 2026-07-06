@@ -557,17 +557,19 @@ I am committed to expanding this repository as I learn more advanced Python and 
 
 ---
 
-## 📊 GitHub Stats & Repository Statistics
+## 📊 Repository Statistics
 
 
-<p align="center">
-
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=Kanneboinashivakumar\&show\_icons=true\&theme=tokyonight"/>
-
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Kanneboinashivakumar\&layout=compact\&theme=tokyonight"/>
-
-</p>
-
+| Metric | Value |
+|---------|------:|
+| 🗓️ Learning Days | 12 |
+| 💻 Python Programs | 90+ |
+| 📁 Topics Covered | 12 |
+| 🧩 Mini Projects | 10+ |
+| 🏛️ OOP Projects | 9 |
+| 📝 Lines of Python Code | 4,500+ |
+| 🚀 Git Commits | 120+ |
+| ⭐ Repository Status | Active Development |
 
 ---
 <div align="center">
