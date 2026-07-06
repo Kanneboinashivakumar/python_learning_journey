@@ -1,73 +1,490 @@
 # 🐍 Python Learning Journey
 
-![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&center=true&vCenter=true&width=550&lines=Learning+Python+Every+Day;Building+Mini+Projects;Improving+Problem+Solving;Next+Stop+%E2%86%92+OOP+%26+DSA)
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&center=true&vCenter=true&width=550&lines=Learning+Python+Every+Day;Building+Mini+Projects;Improving+Problem+Solving;Next+Stop+%E2%86%92+OOP+%26+DSA" alt="Typing SVG">
+</p>
 
-This repository documents my progress in learning Python, where I focus on understanding core concepts and applying them through small, practical projects. Instead of only learning theory, I build hands-on projects to strengthen my problem-solving skills and coding confidence. I update this repository regularly as I complete each new topic — some updates land daily, some as a batch once a topic (like a full day of OOP practice) is finished.
+<p align="center">
+  <img src="assets/banner.png" alt="Python Learning Journey Banner" width="800">
+</p>
 
-![Python Learning Journey Banner](assets/banner.png)
+<p align="center">
+  <strong>"Learning by Building. Documenting my complete Python journey."</strong><br>
+  <sub>Every concept in this repository is followed by practical implementations before moving to the next topic.</sub>
+</p>
+
+<p align="center">
+  <a href="https://python.org"><img src="https://img.shields.io/badge/Python-3.8%2B-blue?style=for-the-badge&logo=python&logoColor=white" alt="Python Version"></a>
+  <img src="https://img.shields.io/badge/Programs_Built-90%2B-success?style=for-the-badge&logo=github" alt="Programs Built">
+  <img src="https://img.shields.io/badge/Learning_Days-12-orange?style=for-the-badge&logo=calendar" alt="Learning Days">
+  <img src="https://img.shields.io/badge/Status-Active-brightgreen?style=for-the-badge" alt="Status">
+</p>
 
 ---
 
-## Repository Highlights
+## 🎯 Why This Repository Exists
 
-- 90+ Python practice programs, organized by topic and learning day
-- Mini projects based on real-world logic (banking, inventory, library systems)
-- Concept-wise organized learning, from basics through OOP
-- Preparing for DSA & Software Development
+This repository documents my progress in learning Python, focusing on understanding core programming concepts and applying them through standalone, practical programs. Instead of only studying theory, I build hands-on projects to strengthen my problem-solving skills, logic, and coding confidence. 
+
+### What You Can Learn:
+- **Core Fundamentals:** Variables, conditional logic, loops, and data structures.
+- **Advanced Logic:** Recursion, anonymous functions, and file I/O operations.
+- **Software Design:** Object-Oriented Programming (OOP) paradigms, inheritance, encapsulation, polymorphism, and magic methods.
+- **Mini-Projects:** Real-world implementations like banking systems, ATM simulations, inventory trackers, and game mechanics.
+
+### Who It Is For:
+- **Recruiters & Engineering Managers** looking to assess my growth, coding style, and commitment to learning.
+- **Python Beginners** seeking well-documented examples and standalone projects to learn from.
+- **Myself** as a reference and a testament to my dedication to learning by building.
 
 ---
 
-## 📈 Learning Progress
+## 💡 Repository Philosophy
 
-```
+> [!TIP]
+> **"I believe programming is learned by building."**
+> Every concept in this repository is followed by practical implementations before moving to the next topic. There are no placeholder libraries or empty files here—only active coding.
+
+---
+
+## ⚡ Repository at a Glance
+
+| Metric / Dimension | Current Status / Highlights |
+| :--- | :--- |
+| 📅 **Learning Days Completed** | **12 Days** of focused practice |
+| 🛠️ **Programs & Scripts Built** | **90+ Standalone Python programs** |
+| 🏗️ **Core Paradigm** | Procedural, Functional, and Object-Oriented Programming (OOP) |
+| 🚀 **External Dependencies** | **None** (Only standard library for seamless, zero-config runs) |
+| 📈 **Repository Status** | **Active** (Updates batch-pushed upon topic completion) |
+| 🔄 **Last Updated Topic** | **OOP Part 2 & Magic (Dunder) Methods** |
+
+---
+
+## 🌟 Featured Projects
+
+Here are some of the most robust, object-oriented, and logically complex projects in this repository:
+
+| Project | File Name | Key Concepts | Description |
+| :--- | :--- | :--- | :--- |
+| 🏦 **ATM System (Advanced)** | [`ATM_System.py`](ATM_System.py) | Encapsulation, State Updates, Verification | Simulates ATM operations like PIN verification, deposits, withdrawals, and PIN changes. |
+| 📚 **Library Management** | [`Library_Management_System.py`](Library_Management_System.py) | Multi-class Interaction, Object Lists | Manages books in a library, including adding, issuing, and returning books. |
+| 🏪 **Inventory Management** | [`inventory_management_system.py`](inventory_management_system.py) | Dictionaries, State Tracking, Validation | A class-based system to add/remove stock and check availability across multiple items. |
+| 🔐 **Password Generator** | [`Mini_pjt_2.py`](Mini_pjt_2.py) | `random` & `string` modules, User Input | Generates secure passwords of user-defined length using letters, digits, and special characters. |
+| 🎯 **Guess Number Game** | [`Mini_Pjt_1.py`](Mini_Pjt_1.py) | Game Loop, Conditionals, Input Casting | An interactive console game where the user guesses a random number with guided hints. |
+| 👨‍🎓 **Student Report Card** | [`Student_Report_Card.py`](Student_Report_Card.py) | Constructors, Conditionals, Average Logic | A class-based system to store student marks and calculate averages and overall results. |
+| 🧮 **Complex Number Calculator** | [`complex_number_calculator.py`](complex_number_calculator.py) | Operator Overloading (`__add__`, `__sub__`, `__str__`) | A custom `ComplexNumber` class supporting arithmetic operations via operator overloading. |
+| 🚗 **Vehicle Rental System** | [`vehicle_rental_system.py`](vehicle_rental_system.py) | State Management, Object Interaction | Simulates renting and returning vehicles from a fleet, tracking available vs. rented cars. |
+| 💳 **Bank Account System** | [`bank_account_private.py`](bank_account_private.py) | Encapsulation, Private Members | A bank account system demonstrating encapsulation using private attributes and methods. |
+
+---
+
+## 🗺️ Learning Timeline & Progress
+
+Below is the roadmap of my Python learning journey, showing completed concepts and topics planned for the future:
+
+| Topic / Section | Status | Concepts Mastered / Target |
+| :--- | :---: | :--- |
+| 📦 **Python Basics** | ✅ Completed | Variables, Data Types, Operators, Input/Output, Type Casting |
+| 🧵 **Strings & Conditions** | ✅ Completed | Slicing, String Formatting, Conditional Logic (`if-elif-else`) |
+| 📋 **Lists & Tuples** | ✅ Completed | Mutable/Immutable collections, Indexing, Nested Lists/Tuples |
+| 📖 **Dictionaries & Sets** | ✅ Completed | Key-Value lookups, Sets, Set Operations, Membership Tests |
+| 🔄 **Loops & Iteration** | ✅ Completed | For/While Loops, Range, Loop Control (`break`/`continue`/`pass`) |
+| 🔧 **Functions & Recursion** | ✅ Completed | Code reusability, parameters, recursive call stack, base cases |
+| 📁 **File Handling (I/O)** | ✅ Completed | File modes (`r`, `w`, `a`), `with` statements, Pointer Manipulation (`seek`/`tell`) |
+| 🏗️ **OOP Part 1** | ✅ Completed | Classes, Objects, Constructors (`__init__`), Instance variables/methods |
+| 🏛️ **OOP Part 2** | ✅ Completed | Inheritance, `super()`, Encapsulation, Polymorphism, Magic (Dunder) Methods |
+| ⚠️ **Exception Handling** | ⬜ *Next Up* | Error Handling (`try-except-finally`), Custom Exceptions |
+| 📦 **Modules & Packages** | ⬜ Planned | Project organization, Custom module imports |
+| 🌐 **APIs & HTTP** | ⬜ Planned | Interacting with web services, JSON parsing |
+| 🗄️ **Databases (SQLite)** | ⬜ Planned | Database integration, writing SQL queries in Python |
+| 🧪 **Unit Testing** | ⬜ Planned | Verifying code correctness with `unittest`/`pytest` |
+| 🧠 **DSA (Data Structures & Algos)** | ⬜ Planned | Lists, Stacks, Queues, Trees, Search/Sort Algorithms |
+
+### 📈 Skill Coverage
+
+```text
 Python Basics           ████████████████████ 100%
-Strings                 ████████████████████ 100%
+Strings & Conditions    ████████████████████ 100%
 Lists & Tuples          ████████████████████ 100%
 Dictionaries & Sets     ████████████████████ 100%
-Loops                   ████████████████████ 100%
+Loops & Iteration       ████████████████████ 100%
 Functions & Recursion   ████████████████████ 100%
-File Handling           ████████████████████ 100%
-Logic Practice          ████████████████████ 100%
-Object Oriented (OOP)   ████████████████░░░░ 80%
+File Handling (I/O)     ████████████████████ 100%
+OOP (Part 1 & 2)        ████████████████████ 100%
 Exception Handling      ░░░░░░░░░░░░░░░░░░░░ 0%
 ```
 
 ---
 
-## GitHub Stats
+## 🛠️ Developed Skills
 
-![](https://github-readme-stats.vercel.app/api?username=Kanneboinashivakumar&show_icons=true&theme=tokyonight)
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=Kanneboinashivakumar&layout=compact&theme=tokyonight)
-
-## Repository Statistics
-
-![Python](https://img.shields.io/badge/Python-100%25-blue?style=for-the-badge&logo=python)
-![Projects](https://img.shields.io/badge/Projects-90+-success?style=for-the-badge)
-![Learning Days](https://img.shields.io/badge/Learning_Days-12-orange?style=for-the-badge)
-![Status](https://img.shields.io/badge/Status-Active-brightgreen?style=for-the-badge)
+<p>
+  <img src="https://img.shields.io/badge/Python-3.8%2B-blue?style=flat-square&logo=python&logoColor=white" alt="Python">
+  <img src="https://img.shields.io/badge/Object--Oriented_Programming-OOP-orange?style=flat-square" alt="OOP">
+  <img src="https://img.shields.io/badge/Problem_Solving-Logic-success?style=flat-square" alt="Problem Solving">
+  <img src="https://img.shields.io/badge/Algorithms-Recursion-red?style=flat-square" alt="Algorithms">
+  <img src="https://img.shields.io/badge/File_Handling-I/O-blueviolet?style=flat-square" alt="File Handling">
+  <img src="https://img.shields.io/badge/Data_Structures-Lists_Dicts_Sets-yellowgreen?style=flat-square" alt="Data Structures">
+  <img src="https://img.shields.io/badge/Git-VCS-critical?style=flat-square&logo=git&logoColor=white" alt="Git">
+  <img src="https://img.shields.io/badge/GitHub-Version_Control-darklight?style=flat-square&logo=github&logoColor=white" alt="GitHub">
+</p>
 
 ---
 
-## 🚀 How to Run
+## 📅 Detailed Learning Log
 
-Every project in this repo is a standalone script. To run any of them:
+<details>
+<summary><b>📅 Day 1 – Python Basics</b></summary>
 
-```bash
-# 1. Clone the repository
-git clone https://github.com/Kanneboinashivakumar/python_learning_journey.git
-cd python_learning_journey
+### 📚 Day 1: Topics Covered
+- **Variables & Identifiers:** Storing and naming data in memory.
+- **Data Types:** Working with `int`, `float`, `string`, `boolean`.
+- **Input / Output:** Taking user input and displaying formatted results.
+- **Operators:** Performing basic arithmetic operations.
+- **Type Conversion:** Converting data between types (casting).
 
-# 2. Run any script directly (no dependencies required — standard library only)
-python Day_1_Basics/Simple_Calculator.py
-```
+### 🛠️ Day 1: Programs Built
+| File Name | Key Concepts | Description |
+| :--- | :--- | :--- |
+| [`Personal_Info_Printer.py`](Personal_Info_Printer.py) | Variables, Input/Output, Data Types | Takes user input (name, age, city) and displays a formatted introduction. |
+| [`Simple_Calculator.py`](Simple_Calculator.py) | Operators, Input/Output, Type Conversion | Performs addition, subtraction, multiplication, division, power, and modulus. |
+| [`Temperature_Converter.py`](Temperature_Converter.py) | Operators, Input/Output, Data Types | Converts Celsius to Fahrenheit using standard mathematical formulas. |
+| [`Student_Marks_Analyzer.py`](Student_Marks_Analyzer.py) | Variables, Operators, Type Conversion | Takes marks of multiple subjects and calculates total and average. |
+| [`Username_Generator.py`](Username_Generator.py) | Variables, Strings, Input/Output | Generates a simple username by combining first name and last name. |
+| [`Bill_Splitter_App`](Bill_Splitter_App) | Operators, Input/Output, Type Conversion | Calculates how much each person should pay when splitting a bill. |
+| [`Basic_Salary_Breakdown.py`](Basic_Salary_Breakdown.py) | Variables, Operators, Data Types | Calculates HRA, DA, and total salary based on a base salary. |
+| [`Area_Calculator.py`](Area_Calculator.py) | Operators, Input/Output, Data Types | Calculates the area of shapes (circle, rectangle, triangle, square). |
+| [`Time_Converter.py`](Time_Converter.py) | Operators, Input/Output, Type Conversion | Converts time values between hours, minutes, and seconds. |
+| [`MiniProfile_Card_Generator.py`](MiniProfile_Card_Generator.py) | Variables, Strings, Input/Output | Displays a structured profile card using user details like name, age, city, and skills. |
 
-No external packages are required for any project in this repo — everything runs on the Python standard library (Python 3.8+ recommended).
+### 🔑 Day 1: Key Takeaways
+- Built a strong foundation in Python basics.
+- Learned how to take user input and process data dynamically.
+- Applied concepts through hands-on mini-projects.
+- Improved problem-solving by breaking tasks into logical steps.
+
+</details>
+
+<details>
+<summary><b>📅 Day 2 – Strings & Conditional Statements</b></summary>
+
+### 📚 Day 2: Topics Covered
+- **Strings:** Creating, indexing, and manipulating text data.
+- **String Slicing:** Extracting parts of a string using indices.
+- **Conditional Statements:** Using `if`, `elif`, and `else` for decision making.
+- **Nested Conditions:** Nesting conditions inside other conditions for complex logic.
+
+### 🛠️ Day 2: Programs Built
+| File Name | Key Concepts | Description |
+| :--- | :--- | :--- |
+| [`Even_or_Odd Checker.py`](Even_or_Odd%20Checker.py) | Conditional Statements, Operators | Takes a number as input and determines whether it is even or odd. |
+| [`PositiveorNegativeorZeroChecker.py`](PositiveorNegativeorZeroChecker.py) | Conditional Statements, Comparison Operators | Classifies a number as positive, negative, or zero. |
+| [`Simple_Password_Checker.py`](Simple_Password_Checker.py) | Strings, Conditional Statements | Checks whether the entered password matches a predefined password. |
+| [`vowelorConsonant_checker.py`](vowelorConsonant_checker.py) | Strings, Conditional Statements | Determines whether a given character is a vowel or a consonant. |
+| [`UsernameValidator.py`](UsernameValidator.py) | Strings, Conditional Statements | Validates a username based on conditions like length and format. |
+| [`EmailValidator.py`](EmailValidator.py) | Strings, Conditional Statements | Performs basic validation of an email format using string checks. |
+| [`basicStringAnalyzer.py`](basicStringAnalyzer.py) | Strings, Slicing | Analyzes a string to display length, first character, last character, and reversed string. |
+| [`SimpleLoginSystem.py`](SimpleLoginSystem.py) | Nested Conditions, Strings | Validates user credentials using nested conditional statements. |
+| [`PasswordStrengthChecker.py`](PasswordStrengthChecker.py) | Strings, Conditional Statements, Logical Operators | Evaluates password strength based on length and character requirements. |
+| [`GradeCalculator.py`](GradeCalculator.py) | Conditional Statements | Assigns grades based on marks using conditional logic. |
+
+### 🔑 Day 2: Key Takeaways
+- Learned how to implement decision-making in programs.
+- Improved understanding of string manipulation and slicing.
+- Practiced writing logical conditions and nested checks.
+
+</details>
+
+<details>
+<summary><b>📅 Day 3 – Lists & Tuples</b></summary>
+
+### 📚 Day 3: Topics Covered
+- **Lists:** Storing and modifying ordered collections of data.
+- **Tuples:** Immutable data structures for fixed collections.
+- **Indexing & Accessing Elements:** Retrieving values from lists and tuples.
+- **Basic Operations:** Using built-in functions like `max()`, `min()`, `sum()`.
+- **Nested Data Structures:** Using tuples inside lists for tabular data.
+
+### 🛠️ Day 3: Programs Built
+| File Name | Key Concepts | Description |
+| :--- | :--- | :--- |
+| [`student_performance_report.py`](student_performance_report.py) | Lists, Tuples, Built-in Functions | Stores student names and marks using tuples inside a list; identifies topper and lowest scorer. |
+| [`shopping_cart_summary.py`](shopping_cart_summary.py) | Lists, Tuples, Indexing | Calculates total cost and identifies the most and least expensive items in a cart. |
+| [`number_insight_tool.py`](number_insight_tool.py) | Lists, Conditional Statements | Analyzes a list of numbers to find maximum, minimum, and check existence of a value. |
+| [`contact_selector.py`](contact_selector.py) | Lists, Tuples, Indexing | Retrieves contact details from a list of tuples based on user-selected index. |
+| [`student_comparison_system.py`](student_comparison_system.py) | Tuples, Conditional Statements | Compares marks of two students and determines who scored higher. |
+
+### 🔑 Day 3: Key Takeaways
+- Learned how to store and manage collections of data.
+- Understood the difference between lists (mutable) and tuples (immutable).
+- Practiced accessing and manipulating structured, nested data.
+
+</details>
+
+<details>
+<summary><b>📅 Day 4 – Dictionaries & Sets</b></summary>
+
+### 📚 Day 4: Topics Covered
+- **Dictionaries:** Key-value pairs to store structured, labeled data.
+- **Accessing & Modifying:** Retrieving, adding, updating, and deleting dictionary data.
+- **Checking Existence:** Using the `in` keyword for keys and values.
+- **Sets:** Storing unique elements without duplicates.
+- **Set Operations:** Union, Intersection, Difference, and Membership tests.
+
+### 🛠️ Day 4: Programs Built
+| File Name | Key Concepts | Description |
+| :--- | :--- | :--- |
+| [`student_database_lookup.py`](student_database_lookup.py) | Dictionaries, Conditional Statements | Stores student names and marks in a dictionary and allows checking marks by student name. |
+| [`word_frequency_checker.py`](word_frequency_checker.py) | Dictionaries, Strings | Counts occurrences of specific words in a given sentence using dictionary lookups. |
+| [`unique_elements_finder.py`](unique_elements_finder.py) | Sets, Data Structures | Converts a list with duplicates into a set to display unique elements. |
+| [`login_system_dict.py`](login_system_dict.py) | Dictionaries, Conditionals, Nested Checks | Simulates a simple login system with credentials stored in a dictionary. |
+| [`common_interest_finder.py`](common_interest_finder.py) | Sets, Set Operations, Conditionals | Finds common elements between two sets of interests to determine shared items. |
+| [`inventory_tracker.py`](inventory_tracker.py) | Dictionaries, Conditional Statements | Tracks items and quantities using a dictionary; checks if a requested item is available. |
+| [`course_enrollment_checker.py`](course_enrollment_checker.py) | Dictionaries, Sets, Conditionals | Stores courses with enrolled student names in a dictionary; checks enrollment status. |
+| [`email_uniqueness_validator.py`](email_uniqueness_validator.py) | Sets, Conditional Statements | Maintains a set of registered emails and checks if a new email is unique before adding it. |
+| [`expense_tracker.py`](expense_tracker.py) | Dictionaries, Built-in Functions | Stores expenses in a dictionary; calculates total and identifies the highest expense category. |
+| [`favorite_programming_languages.py`](favorite_programming_languages.py) | Sets, Set Operations, Conditionals | Stores users' favorite languages using sets and finds common favorites. |
+
+### 🔑 Day 4: Key Takeaways
+- Learned how to store and retrieve structured data efficiently using dictionaries.
+- Understood how sets ensure uniqueness and allow easy comparison.
+- Built a strong foundation for more complex data handling in Python.
+
+</details>
+
+<details>
+<summary><b>📅 Day 5 – Loops & Iteration</b></summary>
+
+### 📚 Day 5: Topics Covered
+- **For Loop:** Iterating over sequences and using the `range()` generator.
+- **While Loop:** Repeating actions until a condition is met.
+- **Loop Control Statements:** Using `break`, `continue`, and `pass` to alter loop execution.
+- **Nested Loops:** Using loops inside loops (e.g., for multi-dimensional data).
+- **Range Function:** Generating sequences of numbers efficiently.
+
+### 🛠️ Day 5: Programs Built
+| File Name | Key Concepts | Description |
+| :--- | :--- | :--- |
+| [`multiplication_table.py`](multiplication_table.py) | `for`, `range`, String Formatting | Takes a number and prints its multiplication table up to a given range. |
+| [`factorial_calculator.py`](factorial_calculator.py) | `while`, Arithmetic, Conditionals | Calculates the factorial of a number using a `while` loop. |
+| [`prime_in_range.py`](prime_in_range.py) | `for`, `while`, `break`, Conditionals | Prints all prime numbers in a given start-to-end range. |
+| [`number_guessing.py`](number_guessing.py) | `while`, `break`, Conditionals | Let's the user guess a randomly generated number with high/low hints. |
+| [`fibonacci_sequence.py`](fibonacci_sequence.py) | `while`, Arithmetic Operations | Generates the Fibonacci sequence up to `n` terms. |
+| [`sum_natural_numbers.py`](sum_natural_numbers.py) | `for`, `range`, Arithmetic | Sums all natural numbers up to a given number using a `for` loop. |
+| [`menu_calculator.py`](menu_calculator.py) | `while`, `if-elif-else`, `break` | Shows a menu of operations (+, -, *, /) and performs calculations until the user exits. |
+| [`list_filter.py`](list_filter.py) | `for`, `if`, `continue`, `append()` | Filters all even or odd numbers from a list based on user choice. |
+| [`password_limiter.py`](password_limiter.py) | `while`, `break`, Conditionals | Allows 3 attempts to enter the correct password, using `break` on success. |
+| [`pattern_printer.py`](pattern_printer.py) | `for`, `range`, String Multiplication | Prints patterns (like triangles or pyramids) using nested loops. |
+
+### 🔑 Day 5: Key Takeaways
+- Mastered loops for repetitive tasks.
+- Learned how to control loops using `break`, `continue`, and `pass`.
+- Practiced combining loops with conditional logic.
+- Built projects that mimic real-world automation and computation.
+
+</details>
+
+<details>
+<summary><b>📅 Day 6 – Functions & Recursion</b></summary>
+
+### 📚 Day 6: Topics Covered
+- **Functions:** Defining reusable blocks of code using `def`.
+- **Arguments & Return Values:** Passing data into functions and returning results.
+- **Recursion:** A function calling itself to solve problems.
+- **Recursion Control:** Implementing base cases to prevent stack overflow.
+
+### 🛠️ Day 6: Programs Built
+| File Name | Key Concepts | Description |
+| :--- | :--- | :--- |
+| [`factorial_recursive.py`](factorial_recursive.py) | Functions, Recursion | Calculates the factorial of a number using recursion, with user input. |
+| [`fibonacci_recursive.py`](fibonacci_recursive.py) | Functions, Recursion | Generates the first `n` Fibonacci numbers using recursion. |
+| [`sum_digits.py`](sum_digits.py) | Functions, Recursion | Calculates the sum of digits of a number using recursion. |
+| [`power_recursive.py`](power_recursive.py) | Functions, Recursion | Calculates `x` raised to the power `y` using recursion. |
+| [`palindrome_recursive.py`](palindrome_recursive.py) | Functions, Recursion, Strings | Checks if a string is a palindrome using a recursive function. |
+| [`gcd_recursive.py`](gcd_recursive.py) | Functions, Recursion, Euclid's Algorithm | Calculates the Greatest Common Divisor (GCD) of two numbers recursively. |
+| [`reverse_string.py`](reverse_string.py) | Functions, Recursion, String Slicing | Reverses a string using a recursive function. |
+| [`decimal_to_binary.py`](decimal_to_binary.py) | Functions, Recursion, Number Systems | Converts a decimal number to binary using recursion. |
+| [`countdown.py`](countdown.py) | Functions, Recursion | Prints numbers from `n` down to 1 recursively. |
+| [`nested_list_sum.py`](nested_list_sum.py) | Functions, Recursion, List Handling | Calculates the sum of numbers in a nested list using recursion. |
+
+### 🔑 Day 6: Key Takeaways
+- Learned how to break problems into base cases and recursive cases.
+- Practiced translating iterative logic into recursive logic.
+- Strengthened reusable function design skills.
+
+</details>
+
+<details>
+<summary><b>📅 Day 7 – File I/O</b></summary>
+
+### 📚 Day 7: Topics Covered
+- **File Reading:** Reading files using `open()` and `.read()`, `.readline()`, or `.readlines()`.
+- **File Writing:** Writing/appending to files using `"w"` or `"a"` modes.
+- **File Handling Modes:** `'r'`, `'w'`, `'a'`, and `'r+'`.
+- **Context Managers:** Using the `with` statement for safe resource handling.
+
+### 🛠️ Day 7: Programs Built
+| File Name | Key Concepts | Description |
+| :--- | :--- | :--- |
+| [`word_counter.py`](word_counter.py) | File Reading, String Manipulation | Reads a text file and counts total words and word frequency. |
+| [`log_analyzer.py`](log_analyzer.py) | File Reading, String Search | Reads a log file and extracts important entries such as errors or timestamps. |
+| [`student_records.py`](student_records.py) | File I/O, Functions, Conditionals | Stores student info in a file and provides options to add, view, or search students. |
+| [`todo_list.py`](todo_list.py) | File I/O, Lists, Loops | Adds, removes, and views tasks stored in a text file. |
+| [`csv_reader.py`](csv_reader.py) | File Reading, String Splitting, Loops | Reads a CSV file and displays data in formatted output with sums/averages. |
+| [`file_backup.py`](file_backup.py) | File I/O, Error Handling | Copies content of one file into a new backup file. |
+| [`unique_words.py`](unique_words.py) | File Reading, Sets, Sorting | Reads a file and extracts all unique words sorted alphabetically. |
+| [`diary_app.py`](diary_app.py) | Append Mode, Input/Output | Writes daily notes to a file and reads past entries by date. |
+| [`line_reverser.py`](line_reverser.py) | File I/O, Lists, Loops | Reverses the order of lines in a file and saves the result to a new file. |
+| [`char_frequency.py`](char_frequency.py) | File Reading, Dictionaries, Loops | Counts the frequency of each character in a file. |
+| [`file_manager.py`](file_manager.py) | File I/O, `os` Module, Conditionals | A small command-line utility for basic file operations (create, read, rename, delete). |
+| [`file_pointer_demo.py`](file_pointer_demo.py) | Cursor/Pointer Mechanics, Byte Offsets | Demonstrates how the file pointer moves through a file using `.tell()` and `.seek()`. |
+
+### 🔑 Day 7: Key Takeaways
+- Learned how to read from and write to files safely.
+- Understood different file modes and when to use each.
+- Practiced building small utilities around persistent data.
+
+</details>
+
+<details>
+<summary><b>📅 Day 8 – Practice & Problem Solving</b></summary>
+
+### 📚 Day 8: Topics Covered
+- **Escape Sequences:** Special characters like `\n`, `\t`, `\\`, `\"`, `\'` and formatting control.
+- **String Methods Revision:** Deep dive into functions like `upper()`, `lower()`, `title()`, `strip()`, `replace()`, `split()`, `join()`.
+- **Mathematical Implementations:** Translating complex mathematical rules (e.g., leap years, quadratic equations) into logic.
+
+### 🛠️ Day 8: Programs Built
+| File Name | Key Concepts | Description |
+| :--- | :--- | :--- |
+| [`esc_sequences.py`](esc_sequences.py) | Escape Sequences, String Formatting | Demonstrates string behaviors and formatting with escape characters. |
+| [`String_methods.py`](String_methods.py) | String Manipulation Methods | Exercises and implements standard Python string manipulation methods. |
+| [`leap_year_checker.py`](leap_year_checker.py) | Complex Conditionals, Modulo | Implements the leap year logic based on divisibility by 4, 100, and 400. |
+| [`quadratic_equation.py`](quadratic_equation.py) | Discriminant Formula, Math | Calculates real, equal, or complex roots using the quadratic formula. |
+| [`vowel_count_sum.py`](vowel_count_sum.py) | String Traversal, Conditionals | Count vowels in a string using string traversal and conditional logic. Also extended to numerical calculations. |
+
+### 🔑 Day 8: Key Takeaways
+- Reinforced string and conditional-logic fundamentals through varied practice problems.
+- Practiced translating mathematical rules directly into clean code.
+
+</details>
+
+<details>
+<summary><b>📅 Day 9 – Advanced Functions & Lambda Expressions</b></summary>
+
+### 📚 Day 9: Topics Covered
+- **Variable Arguments (`*args`):** Accepting an arbitrary number of positional arguments.
+- **User-Defined Functions:** Designing flexible, reusable functions.
+- **Return Values:** Proper utilization of return values.
+- **Lambda (Anonymous) Functions:** Writing concise, inline functions.
+
+### 🛠️ Day 9: Programs Built
+| File Name | Key Concepts | Description |
+| :--- | :--- | :--- |
+| [`DynamicSum.py`](DynamicSum.py) | Variable Arguments (`*args`), Loops | Accepts any number of arguments using `*args` and calculates their sum. |
+| [`area_of_circle_function.py`](area_of_circle_function.py) | Parameters, Return Values, Math | Reusable function to calculate the area of a circle using the formula $\pi r^2$. |
+| [`sum_of_2num_lambda.py`](sum_of_2num_lambda.py) | Lambda Functions, Inline Syntax | Uses a lambda (anonymous) function to add two numbers in a functional style. |
+
+### 🔑 Day 9: Key Takeaways
+- Learned how to create reusable functions for different tasks.
+- Explored variable-length arguments using `*args`.
+- Understood the use of return values in function design.
+- Practiced writing concise anonymous functions using lambda.
+
+</details>
+
+<details>
+<summary><b>📅 Day 10 – Revision & Function Practice</b></summary>
+
+### 📚 Day 10: Topics Revised
+- Python Basics · Strings · Lists & Tuples · Dictionaries & Sets · Loops · Functions · Recursion
+
+### 🛠️ Day 10: Programs Built
+| File Name | Key Concepts | Description |
+| :--- | :--- | :--- |
+| [`max_and_min_list,py`](max_and_min_list,py) | Lists, Built-in Methods | A reusable function that accepts a list of numbers and returns the maximum and minimum. |
+| [`remove_repeated_elements.py`](remove_repeated_elements.py) | Lists, Sets | A function to remove duplicate elements from a list while preserving unique values. |
+
+### 🔄 Recursion Revision
+Revisited and reinforced recursive implementations of:
+- Recursive Factorial · Recursive Fibonacci · Sum of Digits · Power Calculator · Palindrome Checker · GCD · Reverse String · Decimal to Binary · Countdown · Nested List Sum
+
+### 🔑 Day 10: Key Takeaways
+- Revised all previously learned Python fundamentals.
+- Strengthened understanding of recursion through review and practice.
+- Built confidence by revisiting concepts instead of rushing into new topics.
+
+</details>
+
+<details>
+<summary><b>📅 Day 11 – Object-Oriented Programming (OOP Part 1)</b></summary>
+
+### 📚 Day 11: Topics Covered
+- **Classes & Objects:** Defining blueprints and instantiating them.
+- **Constructors (`__init__`):** Setting up default states for objects.
+- **Instance Variables:** Storing unique state data for each object.
+- **Instance Methods:** Creating operations that manipulate instance state.
+
+### 🛠️ Day 11: Programs Built
+| File Name | Key Concepts | Description |
+| :--- | :--- | :--- |
+| [`Student_Report_Card.py`](Student_Report_Card.py) | Class, Object, Constructor, Methods | Class-based system to store student marks and calculate averages and overall results. |
+| [`Bank_Account_System.py`](Bank_Account_System.py) | Class, Object, State management | Simulates banking operations: deposit, withdrawal, and balance check. |
+| [`Library_Management_System.py`](Library_Management_System.py) | Multiple Classes, Object Interaction | Manages books in a library, including adding, issuing, and returning books. |
+| [`ATM_System.py`](ATM_System.py) | Encapsulation basics, Object updates | Simulates ATM operations like PIN verification, deposits, withdrawals, and PIN changes. |
+
+### 🔑 Day 11: Key Takeaways
+- Classes help organize real-world problems into modular code.
+- Objects store data and behavior together.
+- Constructors initialize object data automatically.
+- OOP makes code reusable and scalable.
+
+</details>
+
+<details>
+<summary><b>📅 Day 12 – Object-Oriented Programming (OOP Part 2) & Mini Projects</b></summary>
+
+### 📚 Day 12: Topics Covered
+- **Inheritance:** Single inheritance, method overriding, and parent constructors via `super()`.
+- **Encapsulation:** Public and private members (attributes and methods).
+- **Methods Types:** Difference between Instance methods, `@classmethod`, and `@staticmethod`.
+- **Polymorphism:** Operator overloading and Magic (Dunder) methods (`__add__`, `__gt__`, `__str__`).
+
+### 🛠️ Day 12: Programs Completed
+| File Name | Key Concepts | Description |
+| :--- | :--- | :--- |
+| [`order_with_dunder.py`](order_with_dunder.py) | Operator Overloading, `__gt__` | Implements operator overloading to compare order objects by price. |
+| [`employee_show_details.py`](employee_show_details.py) | Inheritance, Overriding, `super()` | An employee-management example demonstrating single inheritance. |
+| [`Circle_area_OOPS.py`](Circle_area_OOPS.py) | Classes, Instance Methods | A `Circle` class that calculates area and circumference using instance methods. |
+| [`bank_account_private.py`](bank_account_private.py) | Encapsulation, Private Members | A bank account system demonstrating encapsulation using private attributes and methods. |
+| [`student_class_methods.py`](student_class_methods.py) | Class/Static/Instance Methods | A student system illustrating the differences between method types and class variables. |
+| [`complex_number_calculator.py`](complex_number_calculator.py) | Operator Overloading, Polymorphism | Custom complex number class supporting operations via `__add__`, `__sub__`, `__str__`. |
+| [`student_percentage_system.py`](student_percentage_system.py) | Dynamic Updates, State management | Re-calculates percentages dynamically as marks are updated. |
+| [`inventory_management_system.py`](inventory_management_system.py) | Classes, Dictionaries, State | A class-based system to add/remove stock and check item availability. |
+| [`vehicle_rental_system.py`](vehicle_rental_system.py) | Classes, State management | Simulates renting and returning vehicles from a fleet, tracking availability. |
+
+### 🎮 Mini Projects
+| File Name | Key Concepts | Description |
+| :--- | :--- | :--- |
+| [`Mini_Pjt_1.py`](Mini_Pjt_1.py) | `random` module, Loops, Game Logic | Guess the Number Game: Users guess a random number with guided higher/lower hints. |
+| [`Mini_pjt_2.py`](Mini_pjt_2.py) | `random` & `string` modules, User Input | Random Password Generator: Generates secure passwords of user-defined length. |
+
+### 🔑 Day 12: Key Takeaways
+- Learned how inheritance promotes code reusability.
+- Understood the role of `super()` in parent-child class relationships.
+- Explored encapsulation using private attributes and methods to protect data state.
+- Learned the differences between instance, class, and static methods.
+- Implemented operator overloading using Python's magic methods.
+
+</details>
 
 ---
 
 ## 📂 Repository Structure
 
-```
+Below is the planned directory structure for the repository:
+
+```text
 📦 python_learning_journey
 ├── 📁 Day_1_Basics
 ├── 📁 Day_2_Strings
@@ -87,619 +504,77 @@ No external packages are required for any project in this repo — everything ru
 └── 📄 README.md
 ```
 
-> Note: this repo is being migrated from a flat file layout into the folder structure above. If you find a file still sitting in the root, it will be moved into its matching day-folder shortly.
+> [!WARNING]
+> **Structure Migration Status:**
+> The repository is currently transitioning from a flat file layout into the organized subfolders shown above. If you find a file sitting in the root directory, it will be moved into its respective Day folder shortly.
 
 ---
 
-## Day 1 – Python Basics
+## 🚀 How to Run
 
-### Topics Covered
-- **Variables & Identifiers** → Storing and naming data in memory
-- **Data Types** → `int`, `float`, `string`, `boolean`
-- **Input / Output** → Taking user input and displaying results
-- **Operators** → Performing arithmetic operations
-- **Type Conversion** → Converting data between types
+Every project in this repository is designed as a standalone console script. They require no external dependencies (100% pure Python standard library).
 
-### Projects
+### Prerequisites
+- **Python Version:** Python 3.8+ is recommended.
+- **Dependencies:** None.
 
-**1. Personal Info Generator** — `Personal_Info_Printer.py`
-Takes user input like name, age, and city, and displays a formatted introduction.
-*Concepts:* Variables, Input/Output, Data Types
+### Steps
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/Kanneboinashivakumar/python_learning_journey.git
+   cd python_learning_journey
+   ```
 
-**2. Basic Calculator** — `Simple_Calculator.py`
-Performs arithmetic operations such as addition, subtraction, multiplication, division, power, and modulus.
-*Concepts:* Operators, Input/Output, Type Conversion
-
-**3. Temperature Converter** — `Temperature_Converter.py`
-Converts temperature from Celsius to Fahrenheit using a mathematical formula.
-*Concepts:* Operators, Input/Output, Data Types
-
-**4. Marks Analyzer** — `Student_Marks_Analyzer.py`
-Takes marks of multiple subjects and calculates total and average.
-*Concepts:* Variables, Operators, Type Conversion
-
-**5. Username Generator** — `Username_Generator.py`
-Generates a simple username by combining first name and last name.
-*Concepts:* Variables, Strings, Input/Output
-
-**6. Bill Splitter** — `Bill_Splitter_App.py`
-Calculates how much each person should pay when splitting a bill.
-*Concepts:* Operators, Input/Output, Type Conversion
-
-**7. Salary Calculator** — `Basic_Salary_Breakdown.py`
-Calculates HRA, DA, and total salary based on base salary.
-*Concepts:* Variables, Operators, Data Types
-
-**8. Area Calculator** — `Area_Calculator.py`
-Calculates area of shapes like circle, rectangle, triangle, and square.
-*Concepts:* Operators, Input/Output, Data Types
-
-**9. Time Converter** — `Time_Converter.py`
-Converts time between hours, minutes, and seconds.
-*Concepts:* Operators, Input/Output, Type Conversion
-
-**10. Profile Card Generator** — `MiniProfile_Card_Generator.py`
-Displays a structured profile using user details like name, age, city, and skills.
-*Concepts:* Variables, Strings, Input/Output
-
-### Key Takeaways
-- Built a strong foundation in Python basics
-- Learned how to take user input and process data
-- Applied concepts through hands-on mini projects
-- Improved problem-solving by breaking tasks into steps
+2. **Run any script directly:**
+   ```bash
+   python Simple_Calculator.py
+   ```
+   *(Note: If a file has been migrated into its folder, run it with the folder path, e.g., `python Day_1_Basics/Simple_Calculator.py`)*
 
 ---
 
-## Day 2 – Strings & Conditional Statements
+## 🛣️ Future Roadmap
 
-### Topics Covered
-- **Strings** → Creating, indexing, and manipulating text data
-- **String Slicing** → Extracting parts of a string using indices
-- **Conditional Statements** → `if`, `elif`, `else` for decision making
-- **Nested Conditions** → Using conditions inside other conditions
+I am committed to expanding this repository as I learn more advanced Python and computer science topics. Here is what's planned next:
 
-### Projects
-
-**1. Even or Odd Checker** — `Even_or_Odd_Checker.py`
-Takes a number as input and determines whether it is even or odd.
-*Concepts:* Conditional Statements, Operators
-
-**2. Positive / Negative / Zero Checker** — `PositiveorNegativeorZeroChecker.py`
-Classifies a number as positive, negative, or zero.
-*Concepts:* Conditional Statements, Comparison Operators
-
-**3. Password Validator** — `Simple_Password_Checker.py`
-Checks whether the entered password matches a predefined password.
-*Concepts:* Strings, Conditional Statements
-
-**4. Vowel or Consonant Checker** — `vowelorConsonant_checker.py`
-Determines whether a given character is a vowel or a consonant.
-*Concepts:* Strings, Conditional Statements
-
-**5. Username Validator** — `UsernameValidator.py`
-Validates a username based on conditions like length and format.
-*Concepts:* Strings, Conditional Statements
-
-**6. Email Validator** — `EmailValidator.py`
-Performs basic validation of an email format using string checks.
-*Concepts:* Strings, Conditional Statements
-
-**7. String Analyzer Tool** — `basicStringAnalyzer.py`
-Analyzes a string to display length, first character, last character, and reversed string.
-*Concepts:* Strings, Slicing
-
-**8. Simple Login System** — `SimpleLoginSystem.py`
-Validates user credentials using nested conditional statements.
-*Concepts:* Nested Conditions, Strings
-
-**9. Password Strength Checker** — `PasswordStrengthChecker.py`
-Evaluates password strength based on length and character requirements.
-*Concepts:* Strings, Conditional Statements, Logical Operators
-
-**10. Grade Calculator** — `GradeCalculator.py`
-Assigns grades based on marks using conditional logic.
-*Concepts:* Conditional Statements
-
-### Key Takeaways
-- Learned how to implement decision-making in programs
-- Improved understanding of string manipulation
-- Practiced writing logical conditions
+- [ ] **Exception Handling:** Master `try-except-finally` blocks and custom exception raising.
+- [ ] **Modules & Packages:** Learn code organization, import architectures, and custom package structures.
+- [ ] **Decorators & Generators:** Deep dive into advanced functional programming patterns and memory-efficient iterators.
+- [ ] **Databases (SQLite):** Implement local databases to persist application data.
+- [ ] **APIs & Web Frameworks:** Build microservices and web interfaces using `Flask` or `FastAPI`.
+- [ ] **Unit Testing:** Implement automated test suites with `unittest` and `pytest`.
+- [ ] **Data Structures & Algorithms (DSA):** Apply Python to solve complex algorithmic problems.
+- [ ] **Open Source Contributions:** Prepare the repository for collaborative learning.
 
 ---
 
-## Day 3 – Lists & Tuples
+## 🎯 Future Goals
 
-### Topics Covered
-- **Lists** → Storing and modifying collections of data
-- **Tuples** → Immutable data structures for fixed collections
-- **Indexing & Accessing Elements** → Retrieving values from lists and tuples
-- **Basic Operations** → Using functions like `max()`, `min()`, `sum()`
-- **Nested Data Structures** → Using tuples inside lists
-
-### Projects
-
-**1. Student Performance Report** — `student_performance_report.py`
-Stores student names and marks using tuples inside a list and identifies topper and lowest scorer.
-*Concepts:* Lists, Tuples, Built-in Functions
-
-**2. Shopping Cart Summary** — `shopping_cart_summary.py`
-Calculates total cost and identifies the most and least expensive items.
-*Concepts:* Lists, Tuples, Indexing
-
-**3. Number Insight Tool** — `number_insight_tool.py`
-Analyzes a list of numbers to find maximum, minimum, and check existence of a value.
-*Concepts:* Lists, Conditional Statements
-
-**4. Contact Selector** — `contact_selector.py`
-Retrieves contact details from a list of tuples based on user-selected index.
-*Concepts:* Lists, Tuples, Indexing
-
-**5. Student Comparison System** — `student_comparison_system.py`
-Compares marks of two students and determines who scored higher.
-*Concepts:* Tuples, Conditional Statements
-
-### Key Takeaways
-- Learned how to store and manage collections of data
-- Understood the difference between lists and tuples
-- Practiced accessing and manipulating structured data
+- Build a robust foundation in error handling and unit testing to ensure software reliability.
+- Practice solving algorithmic challenges on platforms like LeetCode using clean Python code.
+- Develop larger, full-stack console and web applications using RESTful APIs and SQL/NoSQL databases.
+- Commit to maintaining professional Git commits, clean code styling (PEP 8), and structured documentation.
 
 ---
 
-## Day 4 – Dictionaries & Sets
+## 📊 GitHub Stats & Repository Statistics
 
-### Topics Covered
-- **Dictionaries** → Key-value pairs to store structured data
-- **Accessing & Modifying** → Retrieving, adding, updating, and deleting data
-- **Checking Existence** → Using `in` for keys and values
-- **Sets** → Storing unique elements without duplicates
-- **Set Operations** → Union, Intersection, Difference, and Membership
-
-### Projects
-
-**1. Student Database Lookup** — `student_database_lookup.py`
-Stores student names and marks in a dictionary and allows checking marks by student name.
-*Concepts:* Dictionaries, Conditional Statements
-
-**2. Word Frequency Checker** — `word_frequency_checker.py`
-Counts occurrences of specific words in a given sentence using dictionary lookups.
-*Concepts:* Dictionaries, Strings
-
-**3. Unique Elements Finder** — `unique_elements_finder.py`
-Converts a list with duplicates into a set to display unique elements.
-*Concepts:* Sets, Data Structures
-
-**4. Login System** — `login_system_dict.py`
-Simulates a simple login system with username-password pairs stored in a dictionary. Validates credentials using conditional statements.
-*Concepts:* Dictionaries, Conditional Statements, Nested Conditions
-
-**5. Common Interest Finder** — `common_interest_finder.py`
-Finds common elements between two sets of interests to determine shared items.
-*Concepts:* Sets, Set Operations, Conditional Statements
-
-**6. Inventory Tracker** — `inventory_tracker.py`
-Tracks items and quantities using a dictionary. Checks if a requested item is available.
-*Concepts:* Dictionaries, Conditional Statements
-
-**7. Course Enrollment Checker** — `course_enrollment_checker.py`
-Stores courses with enrolled student names in a dictionary. Checks if a specific student is enrolled in a course.
-*Concepts:* Dictionaries, Sets, Conditional Statements
-
-**8. Email Uniqueness Validator** — `email_uniqueness_validator.py`
-Maintains a set of registered emails and checks if a new email is unique before adding it.
-*Concepts:* Sets, Conditional Statements
-
-**9. Expense Tracker** — `expense_tracker.py`
-Stores expenses in a dictionary with category names and amounts. Calculates total and identifies the highest expense category.
-*Concepts:* Dictionaries, Built-in Functions
-
-**10. Favorite Programming Languages** — `favorite_programming_languages.py`
-Stores favorite programming languages for multiple users using sets. Finds common favorites among users.
-*Concepts:* Sets, Set Operations, Conditional Statements
-
-### Key Takeaways
-- Learned how to store and retrieve structured data efficiently using dictionaries
-- Understood how sets ensure uniqueness and allow easy comparison
-- Built a foundation for more complex data handling in Python
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=Kanneboinashivakumar&show_icons=true&theme=tokyonight" alt="GitHub Stats" height="150">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Kanneboinashivakumar&layout=compact&theme=tokyonight" alt="Top Languages" height="150">
+</p>
 
 ---
 
-## Day 5 – Loops & Iteration
-
-### Topics Covered
-- **For Loop** → Iterating over sequences and using `range()`
-- **While Loop** → Repeating actions until a condition is met
-- **Loop Control Statements** → `break`, `continue`, `pass`
-- **Nested Loops** → Using loops inside loops
-- **Range Function** → Generating sequences of numbers efficiently
-
-### Projects
-
-**1. Multiplication Table Generator** — `multiplication_table.py`
-Takes a number and prints its multiplication table up to a given range.
-*Concepts:* `for`, `range`, string formatting
-
-**2. Factorial Calculator** — `factorial_calculator.py`
-Calculates factorial of a number using a `while` loop.
-*Concepts:* `while`, arithmetic operations, conditional statements
-
-**3. Prime Number Checker in Range** — `prime_in_range.py`
-Prints all prime numbers in a given start-to-end range.
-*Concepts:* `for`, `while`, `break`, conditional statements
-
-**4. Number Guessing Game** — `number_guessing.py`
-User guesses a randomly generated number until correct. Hints provided for high/low guesses.
-*Concepts:* `while`, `break`, conditional statements
-
-**5. Fibonacci Sequence Generator** — `fibonacci_sequence.py`
-Generates Fibonacci sequence up to `n` terms.
-*Concepts:* `while`, arithmetic operations
-
-**6. Sum of Natural Numbers** — `sum_natural_numbers.py`
-Sums all natural numbers up to a given number using a `for` loop.
-*Concepts:* `for`, `range`, arithmetic operations
-
-**7. Simple Menu-Driven Calculator** — `menu_calculator.py`
-Shows a menu of operations (+, -, *, /) and performs calculations in a loop until user exits.
-*Concepts:* `while`, `if-elif-else`, `break`
-
-**8. List Filter Tool** — `list_filter.py`
-Filters all even or odd numbers from a list based on user choice using loops.
-*Concepts:* `for`, `if`, `continue`, `append()`
-
-**9. Password Attempts Limiter** — `password_limiter.py`
-Allows 3 attempts to enter the correct password. Uses `break` on success.
-*Concepts:* `while`, `break`, conditional statements
-
-**10. Pattern Printer** — `pattern_printer.py`
-Prints patterns (like triangle, pyramid) using nested loops and `range()`.
-*Concepts:* `for`, `range`, string multiplication
-
-### Key Takeaways
-- Mastered loops for repetitive tasks
-- Learned how to control loops using `break`, `continue`, and `pass`
-- Practiced combining loops with conditional logic
-- Built projects that mimic real-world automation and computation
-
----
-
-## Day 6 – Functions & Recursion
-
-### Topics Covered
-- **Functions** → Defining reusable blocks of code using `def`
-- **Arguments & Return Values** → Passing data into functions and returning results
-- **Recursion** → Function calling itself to solve problems
-- **Base Case & Recursive Case** → Stopping condition and recursive logic
-
-### Projects
-
-**1. Recursive Factorial Calculator** — `factorial_recursive.py`
-Calculates the factorial of a number using recursion, with user input.
-*Concepts:* Functions, recursion
-
-**2. Fibonacci Sequence Generator (Recursive)** — `fibonacci_recursive.py`
-Generates the first `n` Fibonacci numbers using recursion.
-*Concepts:* Functions, recursion
-
-**3. Sum of Digits (Recursive)** — `sum_digits.py`
-Calculates the sum of digits of a number using recursion.
-*Concepts:* Functions, recursion
-
-**4. Power Calculator** — `power_recursive.py`
-Calculates `x` raised to the power `y` using recursion.
-*Concepts:* Functions, recursion
-
-**5. Palindrome Checker (Recursive)** — `palindrome_recursive.py`
-Checks if a string is a palindrome using a recursive function.
-*Concepts:* Functions, recursion, string handling
-
-**6. Greatest Common Divisor (GCD)** — `gcd_recursive.py`
-Calculates the GCD of two numbers using a recursive function based on Euclid's algorithm.
-*Concepts:* Functions, recursion, mathematical logic
-
-**7. Reverse a String** — `reverse_string.py`
-Reverses a string using a recursive function.
-*Concepts:* Functions, recursion, string slicing
-
-**8. Decimal to Binary Converter** — `decimal_to_binary.py`
-Converts a decimal number to binary using recursion.
-*Concepts:* Functions, recursion, number systems
-
-**9. Countdown Timer** — `countdown.py`
-Prints numbers from `n` down to 1 recursively.
-*Concepts:* Functions, recursion
-
-**10. Nested Sum of Lists** — `nested_list_sum.py`
-Calculates the sum of numbers in a nested list using recursion.
-*Concepts:* Functions, recursion, list handling
-
-### Key Takeaways
-- Learned how to break problems into base cases and recursive cases
-- Practiced translating iterative logic into recursive logic
-- Strengthened function design skills
-
----
-
-## Day 7 – File I/O
-
-### Topics Covered
-- **File Reading** → Open and read files using `open()` and `.read()` or `.readlines()`
-- **File Writing** → Write to files using `open()` with `"w"` or `"a"` mode
-- **File Handling Modes** → `'r'`, `'w'`, `'a'`, and `'r+'`
-- **Closing Files** → Using `.close()` or the `with` statement
-
-### Projects
-
-**1. Text File Word Counter** — `word_counter.py`
-Reads a text file and counts total words and word frequency.
-*Concepts:* File reading, string manipulation
-
-**2. Log File Analyzer** — `log_analyzer.py`
-Reads a log file and extracts important entries such as errors or timestamps.
-*Concepts:* File reading, string search
-
-**3. Student Record Manager** — `student_records.py`
-Stores student info in a file and provides options to add, view, or search students.
-*Concepts:* File I/O, functions, conditional statements
-
-**4. To-Do List Application** — `todo_list.py`
-Adds, removes, and views tasks stored in a file.
-*Concepts:* File reading/writing, lists, loops
-
-**5. CSV Data Reader** — `csv_reader.py`
-Reads a CSV file and displays data in formatted output, with sums/averages of numeric columns.
-*Concepts:* File reading, string splitting, loops
-
-**6. File Backup Utility** — `file_backup.py`
-Copies content of one file into a new backup file.
-*Concepts:* File reading/writing, error handling
-
-**7. Unique Word Extractor** — `unique_words.py`
-Reads a file and extracts all unique words sorted alphabetically.
-*Concepts:* File reading, sets, string manipulation
-
-**8. Simple Diary Application** — `diary_app.py`
-Writes daily notes to a file and reads past entries by date.
-*Concepts:* File append mode, input/output, string formatting
-
-**9. File Line Reverser** — `line_reverser.py`
-Reverses the order of lines in a file and saves the result to a new file.
-*Concepts:* File reading/writing, lists, loops
-
-**10. Character Frequency Counter** — `char_frequency.py`
-Counts the frequency of each character in a file.
-*Concepts:* File reading, dictionaries, loops
-
-**11. File Manager** — `file_manager.py`
-A small command-line utility for basic file operations (create, read, rename, or delete a file) built on top of Python's `os` module.
-*Concepts:* File I/O, `os` module, conditional statements
-
-**12. File Pointer Demo** — `file_pointer_demo.py`
-Demonstrates how the file pointer/cursor moves through a file using `.tell()` and `.seek()`, including reading in chunks.
-*Concepts:* File reading, cursor/pointer mechanics, byte offsets
-
-### Key Takeaways
-- Learned how to read from and write to files safely
-- Understood different file modes and when to use each
-- Practiced building small utilities around persistent data
-
----
-
-## Day 8 – Practice & Problem Solving
-
-Today I focused on strengthening Python fundamentals by solving multiple beginner-level logic programs and revising important concepts.
-
-### Topics Covered
-
-**1. Escape Sequences** — `esc_sequences.py`
-Learned special characters like `\n`, `\t`, `\\`, `\"`, `\'` and how strings behave with formatting and control characters.
-
-**2. String Methods Revision** — `String_methods.py`
-Practiced important string functions: `upper()`, `lower()`, `title()`, `strip()`, `replace()`, `split()`, `join()`.
-
-**3. Leap Year Checker** — `leap_year_checker.py`
-Implemented the leap year rule: divisible by 400 → leap year; divisible by 100 (but not 400) → not a leap year; divisible by 4 → leap year.
-
-**4. Quadratic Equation Root Finder** — `quadratic_equation.py`
-Used the discriminant formula (b² − 4ac) to handle real roots, equal roots, and complex roots.
-
-**5. Vowel Count Program** — `vowel_count_sum.py`
-Counted vowels in a string using string traversal and conditional logic.
-
-**6. Sum of Vowels Logic Extension** — `vowel_count_sum.py`
-Extended vowel-counting logic into a numerical calculation problem.
-
-### Key Takeaways
-- Reinforced string and conditional-logic fundamentals through varied practice problems
-- Practiced translating a mathematical rule (leap years, quadratics) directly into code
-
----
-
-## Day 9 – Advanced Functions & Lambda Expressions
-
-### Topics Covered
-- Variable Arguments (`*args`)
-- User-Defined Functions
-- Return Values
-- Mathematical Functions
-- Lambda (Anonymous) Functions
-
-### Projects
-
-**1. Dynamic Sum Calculator** — `DynamicSum.py`
-Creates a function that accepts any number of arguments using `*args` and calculates their total sum, demonstrating flexible function parameters.
-*Concepts:* Functions, Variable Arguments (`*args`), Loops, Built-in Functions
-
-**2. Area of Circle Calculator** — `area_of_circle_function.py`
-Implements a reusable function to calculate the area of a circle using the formula πr² based on user input.
-*Concepts:* Functions, Parameters, Return Values, Math Module
-
-**3. Sum of Two Numbers Using Lambda** — `sum_of_2num_lambda.py`
-Uses a lambda (anonymous) function to add two numbers in a concise, functional style.
-*Concepts:* Lambda Functions, Anonymous Functions, Function Assignment
-
-### Key Takeaways
-- Learned how to create reusable functions for different tasks
-- Explored variable-length arguments using `*args`
-- Understood the use of return values in function design
-- Practiced writing concise anonymous functions using lambda
-
----
-
-## Day 10 – Revision & Function Practice
-
-Today was dedicated to revising all Python concepts learned so far instead of learning something new — reviewing previously completed programs, strengthening recursion, and solving a couple of additional function-based problems.
-
-### Topics Revised
-Python Basics · Strings · Lists & Tuples · Dictionaries & Sets · Loops · Functions · Recursion
-
-### Additional Practice
-
-**1. Max and Min List Finder** — `max_and_min_list.py`
-A reusable function that accepts a list of numbers and returns the maximum and minimum values.
-*Concepts:* Lists, built-in methods
-
-**2. Remove Repeated Elements** — `remove_repeated_elements.py`
-A function to remove duplicate elements from a list while preserving unique values.
-*Concepts:* Lists, Sets
-
-### Recursion Revision
-Revisited: Recursive Factorial · Recursive Fibonacci · Sum of Digits · Power Calculator · Palindrome Checker · GCD · Reverse String · Decimal to Binary · Countdown · Nested List Sum
-
-### Key Takeaways
-- Revised all previously learned Python fundamentals
-- Strengthened understanding of recursion through review and practice
-- Built confidence by revisiting concepts instead of rushing into new topics
-
----
-
-## Day 11 – Object-Oriented Programming (OOP Part 1)
-
-### Topics Covered
-Classes · Objects · Constructors (`__init__`) · Instance Variables · Instance Methods · Basic OOP Design
-
-### What I Learned
-Started Object-Oriented Programming in Python — creating classes as blueprints, creating objects, using constructors to initialize data, storing data with instance variables, and writing methods to operate on that data.
-
-### Projects
-
-**1. Student Report Card System** — `Student_Report_Card.py`
-A class-based system to store student marks and calculate average and result.
-*Concepts:* Class, Object, Constructor, Methods, Conditional logic
-
-**2. Bank Account System** — `Bank_Account_System.py`
-Simulates a simple banking system with deposit, withdrawal, and balance check.
-*Concepts:* Class, Object, State management, Methods, Conditional logic
-
-**3. Library Management System** — `Library_Management_System.py`
-Manages books in a library, including adding, issuing, and returning books.
-*Concepts:* Multiple classes, Object interaction, Lists of objects, State tracking
-
-**4. ATM System (Advanced)** — `ATM_System.py`
-Simulates ATM operations like PIN verification, deposit, withdrawal, and PIN change.
-*Concepts:* Encapsulation basics, Condition checking, Object state updates
-
-### Key Takeaways
-- Classes help organize real-world problems into code
-- Objects store data and behavior together
-- Constructors initialize object data automatically
-- OOP makes code reusable and scalable
-
----
-
-## Day 12 – Object-Oriented Programming (OOP Part 2) & Mini Projects
-
-### Topics Covered
-Inheritance · Single Inheritance · Method Overriding · `super()` · Public and Private Members · Private Attributes · Private Methods · Class Variables · Instance Variables · `@staticmethod` · `@classmethod` · Instance Methods · Dynamic Attribute Updates · Polymorphism · Operator Overloading · Magic (Dunder) Methods (`__add__`, `__gt__`, `__str__`)
-
-### What I Learned
-Continued the OOP journey with inheritance (how child classes reuse a parent's properties and methods), `super()` for initializing parent-class attributes from a child class, the difference between public and private members, and when to use instance/class/static methods. Also explored polymorphism via operator overloading using Python's dunder methods, and practiced building utility-based mini projects using Python's standard library.
-
-### Programs Completed
-
-**1. Order Comparison using Dunder Method** — `order_with_dunder.py`
-Implements operator overloading using `__gt__()` to compare two order objects by price.
-*Concepts:* Classes & Objects, Constructor, Operator Overloading, Magic Methods, Polymorphism
-
-**2. Employee Details using Inheritance** — `employee_show_details.py`
-An employee-management example demonstrating inheritance, method overriding, and `super()`.
-*Concepts:* Inheritance, Method Overriding, `super()`, Constructors, Instance Methods
-
-**3. Circle Area & Circumference Calculator** — `Circle_area_OOPS.py`
-A `Circle` class that calculates area and circumference using instance methods.
-*Concepts:* Classes, Objects, Constructors, Instance Methods
-
-**4. Bank Account using Private Members** — `bank_account_private.py`
-A bank account system demonstrating encapsulation using private attributes and private methods.
-*Concepts:* Encapsulation, Private Attributes, Private Methods, Instance Methods
-
-**5. Student Class Methods** — `student_class_methods.py`
-A student-management system illustrating the differences between instance methods, class methods, static methods, and class variables.
-*Concepts:* Class Variables, Instance Variables, `@classmethod`, `@staticmethod`, Instance Methods
-
-**6. Complex Number Calculator** — `complex_number_calculator.py`
-A custom `ComplexNumber` class supporting arithmetic operations via operator overloading.
-*Concepts:* Operator Overloading, `__add__`, `__sub__`, `__str__`, Polymorphism
-
-**7. Student Percentage System** — `student_percentage_system.py`
-A student result system where percentage is recalculated dynamically as marks are updated.
-*Concepts:* Dynamic Data Calculation, Constructors, Instance Variables, Methods
-
-**8. Inventory Management System** — `inventory_management_system.py`
-A class-based system to add stock, remove stock, and check availability across multiple inventory items.
-*Concepts:* Classes, Object interaction, Dictionaries, State tracking
-
-**9. Vehicle Rental System** — `vehicle_rental_system.py`
-Simulates renting and returning vehicles from a fleet, tracking which vehicles are currently available.
-*Concepts:* Classes, Object interaction, State management, Conditional logic
-
-### Mini Projects
-
-**Mini Project 1 – Guess the Number Game** — `Mini_Pjt_1.py`
-An interactive number-guessing game where the user guesses a randomly generated number, with hints after each incorrect guess.
-*Concepts:* `random` module, Loops (`while`), Conditional Statements, Type Conversion, Game Logic
-
-**Mini Project 2 – Random Password Generator** — `Mini_pjt_2.py`
-Generates secure passwords of user-defined length using letters, digits, and special characters.
-*Concepts:* `random` module, `string` module, String Manipulation, User Input
-
-### Key Takeaways
-- Learned how inheritance promotes code reusability
-- Understood the role of `super()` in parent-child class relationships
-- Explored encapsulation using private attributes and methods
-- Learned the differences between instance, class, and static methods
-- Implemented operator overloading using Python's magic methods
-
----
-
-## 🎯 Next Steps
-
-- Exception Handling (`try` / `except` / `finally`)
-- Abstraction (abstract base classes)
-- Modules & Packages
-- Unit Testing (`unittest` / `pytest`)
-- Larger, project-oriented real-world Python builds (persistence, APIs, small CLIs)
-
----
-
-## Future Goals
-
-- Build a stronger foundation in exception handling and testing
-- Continue improving problem-solving skills through DSA practice
-- Start implementing real-world Python projects with persistence and external data (APIs, databases)
-- Maintain consistent, well-scoped commits going forward
-
----
-
-## Final Note
-
-This is just the beginning of my Python journey. I'll keep updating this repository as I learn and grow — with clearer structure, better-documented code, and steadily more advanced projects.
-
----
-
-## 🎉 Thank You for Visiting!
-
-If you found this repository useful, consider giving it a star ⭐
-
-🚀 Learning • Building • Growing
-
-Made with ❤️ by **K. Shiva Kumar**
+<p align="center">
+  <strong>🎉 Thank You for Visiting!</strong><br>
+  If you found this repository helpful or inspiring, please consider giving it a star ⭐ to show your support!
+</p>
+
+<p align="center">
+  🚀 <strong>Learning</strong> • 🛠️ <strong>Building</strong> • 📈 <strong>Growing</strong>
+</p>
+
+<p align="center">
+  Made with ❤️ by <strong>K. Shiva Kumar</strong>
+</p>
