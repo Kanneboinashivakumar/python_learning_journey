@@ -21,3 +21,9 @@ log.txt
 source.txt
 input.txt
 students.csv
+__pycache__/
+*.pyc
+books.txt
+data.txt
+employees.txt
+history.txt
