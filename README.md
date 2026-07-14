@@ -15,8 +15,8 @@
 
 <p align="center">
   <a href="https://python.org"><img src="https://img.shields.io/badge/Python-3.8%2B-blue?style=for-the-badge&logo=python&logoColor=white" alt="Python Version"></a>
-  <img src="https://img.shields.io/badge/Programs_Built-90%2B-success?style=for-the-badge&logo=github" alt="Programs Built">
-  <img src="https://img.shields.io/badge/Learning_Days-12-orange?style=for-the-badge&logo=calendar" alt="Learning Days">
+  <img src="https://img.shields.io/badge/Programs_Built-100%2B-success?style=for-the-badge&logo=github" alt="Programs Built">
+  <img src="https://img.shields.io/badge/Learning_Days-14-orange?style=for-the-badge&logo=calendar" alt="Learning Days">
   <img src="https://img.shields.io/badge/Status-Active-brightgreen?style=for-the-badge" alt="Status">
 </p>
 
@@ -51,12 +51,12 @@ This repository documents my progress in learning Python, focusing on understand
 
 | Metric / Dimension | Current Status / Highlights |
 | :--- | :--- |
-| 📅 **Learning Days Completed** | **12 Days** of focused practice |
-| 🛠️ **Programs & Scripts Built** | **90+ Standalone Python programs** |
+| 📅 **Learning Days Completed** | **14 Days** of focused practice |
+| 🛠️ **Programs & Scripts Built** | **100+ Standalone Python programs** |
 | 🏗️ **Core Paradigm** | Procedural, Functional, and Object-Oriented Programming (OOP) |
 | 🚀 **External Dependencies** | **None** (Only standard library for seamless, zero-config runs) |
 | 📈 **Repository Status** | **Active** (Updates batch-pushed upon topic completion) |
-| 🔄 **Last Updated Topic** | **OOP Part 2 & Magic (Dunder) Methods** |
+| 🔄 **Last Updated Topic** | **Modules & Packages** |
 
 ---
 
@@ -93,9 +93,9 @@ Below is the roadmap of my Python learning journey, showing completed concepts a
 | 📁 **File Handling (I/O)** | ✅ Completed | File modes (`r`, `w`, `a`), `with` statements, Pointer Manipulation (`seek`/`tell`) |
 | 🏗️ **OOP Part 1** | ✅ Completed | Classes, Objects, Constructors (`__init__`), Instance variables/methods |
 | 🏛️ **OOP Part 2** | ✅ Completed | Inheritance, `super()`, Encapsulation, Polymorphism, Magic (Dunder) Methods |
-| ⚠️ **Exception Handling** | ⬜ *Next Up* | Error Handling (`try-except-finally`), Custom Exceptions |
-| 📦 **Modules & Packages** | ⬜ Planned | Project organization, Custom module imports |
-| 🌐 **APIs & HTTP** | ⬜ Planned | Interacting with web services, JSON parsing |
+| ⚠️ **Exception Handling** | ✅ Completed | Error Handling (`try-except-finally`), Custom Exceptions |
+| 📦 **Modules & Packages** | ✅ Completed | Project organization, Custom module imports |
+| 🌐 **APIs & HTTP** | ⬜ *Next Up* | Interacting with web services, JSON parsing |
 | 🗄️ **Databases (SQLite)** | ⬜ Planned | Database integration, writing SQL queries in Python |
 | 🧪 **Unit Testing** | ⬜ Planned | Verifying code correctness with `unittest`/`pytest` |
 | 🧠 **DSA (Data Structures & Algos)** | ⬜ Planned | Lists, Stacks, Queues, Trees, Search/Sort Algorithms |
@@ -111,7 +111,8 @@ Loops & Iteration       ██████████████████�
 Functions & Recursion   ████████████████████ 100%
 File Handling (I/O)     ████████████████████ 100%
 OOP (Part 1 & 2)        ████████████████████ 100%
-Exception Handling      ░░░░░░░░░░░░░░░░░░░░ 0%
+Exception Handling      ████████████████████ 100%
+Modules & Packages      ████████████████████ 100%
 ```
 
 ---
@@ -478,6 +479,129 @@ Revisited and reinforced recursive implementations of:
 
 </details>
 
+<details>
+<summary><b>📅 Day 13 – Exception Handling</b></summary>
+
+### 📚 Day 13: Topics Covered
+- **Exception Handling:** Error handling using `try`, `except`, `else`, and `finally` blocks.
+- **Built-in Exceptions:** Handling common error types such as `ValueError` and `ZeroDivisionError`.
+- **Custom Exceptions:** Defining and raising user-defined exceptions to handle specific error conditions.
+- **Data Validation:** Using `@property` decorators with getters and setters for parameter validation and encapsulation.
+
+### 🛠️ Day 13: Programs Built
+| File Name | Key Concepts | Description |
+| :--- | :--- | :--- |
+| [`smart_calculator.py`](Day_13_Exception_Handling/smart_calculator.py) | `try`, `except`, `else`, `finally`, `ValueError`, `ZeroDivisionError` | Performs +, -, *, / operations with proper exception handling. |
+| [`student_result_system.py`](Day_13_Exception_Handling/student_result_system.py) | Custom Exceptions, `@property`, Getter, Setter, Exception Handling | Validates student age and marks using custom exceptions and properties. |
+| [`atm_system.py`](Day_13_Exception_Handling/atm_system.py) | Classes, Properties, Custom Exceptions, Loops | Deposit, withdraw, balance enquiry with exception handling. |
+
+### 🔑 Day 13: Key Takeaways
+- Learned how to make programs resilient by catching and handling runtime exceptions.
+- Practiced custom exception class creation to represent domain-specific error conditions.
+- Used properties to implement robust validation in class setters.
+
+</details>
+
+<details>
+<summary><b>📅 Day 14 – Modules & Packages</b></summary>
+
+### 📚 Day 14: Topics Covered
+- **Modules & Custom Modules:** Organizing code across multiple files and importing them using `import`, `from ... import`.
+- **Packages:** Creating package structures using directories with multiple modules.
+- **Standard Library:** Leveraging built-in modules like `math` to perform scientific computations.
+- **File Handling & Data Persistence:** Reading and writing structured records to text databases (e.g. `.txt` databases).
+- **Encapsulation & Validation:** Combining OOP structures with validations, transactions, and custom modules.
+
+### 🛠️ Day 14: Programs Built
+
+#### 🧮 Project 1 — Scientific Calculator
+- **Path:** [`scientific_calculator/`](DAY_14_Modules&Packages/scientific_calculator/)
+- **Structure:**
+  ```text
+  scientific_calculator/
+  │── main.py
+  │── basic_operations.py
+  │── scientific_operations.py
+  │── history.py
+  └── utils.py
+  ```
+- **Description:** A calculator supporting both basic and scientific operations while maintaining a history of calculations.
+- **Features:** Addition, Subtraction, Multiplication, Division, Square Root, Power, Factorial, History of calculations.
+- **Concepts:** Modules, Custom Modules, Functions, Imports, File Handling, Exception Handling, `math` module.
+
+#### 👨‍🎓 Project 2 — Student Management System
+- **Path:** [`student_management_system/`](DAY_14_Modules&Packages/student_management_system/)
+- **Structure:**
+  ```text
+  student_management_system/
+  │── main.py
+  │── student.py
+  │── file_handler.py
+  │── validation.py
+  │── menu.py
+  └── data.txt
+  ```
+- **Description:** A menu-driven system to manage student records stored in a file.
+- **Features:** Add Student, Search Student, Update Student, Delete Student, Display All Students, Save to File.
+- **Concepts:** OOP, Modules, Packages, File Handling, Validation, Exception Handling.
+
+#### 📚 Project 3 — Library Management System
+- **Path:** [`library_management/`](DAY_14_Modules&Packages/library_management/)
+- **Structure:**
+  ```text
+  library_management/
+  │── main.py
+  │── book.py
+  │── member.py
+  │── transaction.py
+  │── database.py
+  └── books.txt
+  ```
+- **Description:** A library system to manage books and borrowing.
+- **Features:** Add Book, Display Books, Search Book, Borrow Book, Return Book, Track Availability.
+- **Concepts:** OOP, File Handling, Modules, Transactions, CRUD Operations.
+
+#### 🏦 Project 4 — Banking Management System
+- **Path:** [`banking_system/`](DAY_14_Modules&Packages/banking_system/)
+- **Structure:**
+  ```text
+  banking_system/
+  │── main.py
+  │── account.py
+  │── customer.py
+  │── transaction.py
+  │── validation.py
+  │── database.py
+  └── accounts.txt
+  ```
+- **Description:** A banking application with account creation and money transactions.
+- **Features:** Create Account, Deposit, Withdraw, Transfer Money, Search Account, Display Accounts.
+- **Concepts:** OOP, Encapsulation (`@property`), Custom Modules, File Handling, Validation, Exception Handling, Transactions.
+
+#### 💼 Project 5 — Employee Payroll Management System
+- **Path:** [`employee_payroll/`](DAY_14_Modules&Packages/employee_payroll/)
+- **Structure:**
+  ```text
+  employee_payroll/
+  │── main.py
+  │── employee.py
+  │── payroll.py
+  │── attendance.py
+  │── tax.py
+  │── reports.py
+  └── employees.txt
+  ```
+- **Description:** An employee management and payroll system with attendance, tax, and bonus calculations.
+- **Features:** Add Employee, Search Employee, Delete Employee, Display Employees, Attendance Tracking, Bonus Calculation, Tax Calculation, Payroll Report.
+- **Concepts:** OOP, Modules, Packages, File Handling, Salary Calculation, Tax Rules, Exception Handling.
+
+### 🔑 Day 14: Key Takeaways
+- Learned how to split large projects into modular sub-modules for clean separation of concerns.
+- Created reusable validation, database, and utility modules shared across application components.
+- Mastered managing state, custom exceptions, and transactional logic in multi-file projects.
+
+</details>
+
 ---
 
 ## 📂 Repository Structure
@@ -498,6 +622,8 @@ Below is the planned directory structure for the repository:
 ├── 📁 Day_10_Revision
 ├── 📁 Day_11_OOP_Part1
 ├── 📁 Day_12_OOP_Part2_MiniProjects
+├── 📁 Day_13_Exception_Handling
+├── 📁 DAY_14_Modules&Packages
 ├── 📁 assets
 ├── CONTRIBUTING.md
 ├── LICENSE
@@ -537,8 +663,8 @@ Every project in this repository is designed as a standalone console script. The
 
 I am committed to expanding this repository as I learn more advanced Python and computer science topics. Here is what's planned next:
 
-- [ ] **Exception Handling:** Master `try-except-finally` blocks and custom exception raising.
-- [ ] **Modules & Packages:** Learn code organization, import architectures, and custom package structures.
+- [x] **Exception Handling:** Master `try-except-finally` blocks and custom exception raising.
+- [x] **Modules & Packages:** Learn code organization, import architectures, and custom package structures.
 - [ ] **Decorators & Generators:** Deep dive into advanced functional programming patterns and memory-efficient iterators.
 - [ ] **Databases (SQLite):** Implement local databases to persist application data.
 - [ ] **APIs & Web Frameworks:** Build microservices and web interfaces using `Flask` or `FastAPI`.
@@ -562,11 +688,11 @@ I am committed to expanding this repository as I learn more advanced Python and 
 
 | Metric | Value |
 |---------|------:|
-| 🗓️ Learning Days | 12 |
-| 💻 Python Programs | 90+ |
-| 📁 Topics Covered | 12 |
+| 🗓️ Learning Days | 14 |
+| 💻 Python Programs | 100+ |
+| 📁 Topics Covered | 14 |
 | 🧩 Mini Projects | 10+ |
-| 🏛️ OOP Projects | 9 |
+| 🏛️ OOP Projects | 15 |
 | 📝 Lines of Python Code | 4,500+ |
 | 🚀 Git Commits | 120+ |
 | ⭐ Repository Status | Active Development |
